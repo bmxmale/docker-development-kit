@@ -1,0 +1,75 @@
+version: '2'
+services:
+
+  # Træfɪk, a modern reverse proxy
+  traefik:
+    container_name: Traefik
+    image: traefik:latest
+    volumes:
+      - ./mount/ssl/pem:/etc/traefik/certs
+      - ./mount/traefik/traefik.toml:/etc/traefik/traefik.toml
+      - ./mount/traefik/log:/etc/traefik/log
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 80:80
+      - 443:443
+    network_mode: "DOCKER_network"
+    labels:
+      - "traefik.backend=TRAEFIK"
+      - "traefik.port=8080"
+      - "traefik.frontend.rule=Host:traefik.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+
+  # MailHog - Web and API based SMTP testing
+  mailhog:
+    container_name: MailHog
+    image: mailhog/mailhog:latest
+    network_mode: "DOCKER_network"
+    labels:
+      - "traefik.backend=MAILHOG"
+      - "traefik.port=8025"
+      - "traefik.frontend.rule=Host:mailhog.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+
+  # Portainer - Simple management UI for Docker
+  portiner:
+    container_name: Portainer
+    image: portainer/portainer:latest
+    network_mode: "DOCKER_network"
+    labels:
+      - "traefik.backend=PORTAINER"
+      - "traefik.port=9000"
+      - "traefik.frontend.rule=Host:portainer.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+
+  # MySQL - widely used, open-source relational database management system (RDBMS).
+  mysql:
+    container_name: MySQL
+    image: mysql:latest
+    volumes:
+      - ./mount/mysql/data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    network_mode: "DOCKER_network"
+
+  # Redis is in-memory data structure store, used as a database, cache and message broker.
+  redis:
+    container_name: Redis
+    image: redis:latest
+    volumes:
+      - ./mount/redis:/data
+    network_mode: "DOCKER_network"
+
+  # Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases.
+#  elasticsearch:
+#    container_name: Elasticsearch
+#    image: bmxmale/docker-elasticsearch:2.4.6
+#    volumes:
+#      - ./mount/elasticsearch/data:/usr/share/elasticsearch/data/elasticsearch
+#      - ./mount/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+#    labels:
+#      - "traefik.backend=ELASTIC"
+#      - "traefik.port=9200"
+#      - "traefik.frontend.rule=Host:elastic.udviklet.dk"
+#      - "traefik.docker.network=DOCKER_network"
+#    network_mode: "DOCKER_network"

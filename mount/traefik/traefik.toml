@@ -1,0 +1,34 @@
+defaultEntryPoints = ["http", "https"]
+
+traefikLogsFile = "/etc/traefik/log/traefik.log"
+logLevel = "ERROR"
+
+#[accessLog]
+#filePath = "/etc/traefik/log/access.log"
+
+[entryPoints]
+    [entryPoints.http]
+        address = ":80"
+        compress = true
+    [entryPoints.https]
+        address = ":443"
+        compress = true
+    [entryPoints.https.tls]
+        [[entryPoints.https.tls.certificates]]
+            certFile = "/etc/traefik/certs/dummy.pem"
+            keyFile = "/etc/traefik/certs/dummy.pem"
+        [[entryPoints.https.tls.certificates]]
+            certFile = "/etc/traefik/certs/secure.udviklet.dk.pem"
+            keyFile = "/etc/traefik/certs/secure.udviklet.dk.pem"
+[web]
+    address = ":8080"
+    readOnly = true
+
+[web.statistics]
+    recentErrors = 20
+
+[docker]
+    domain = "udviklet.dk"
+    exposedbydefault = true
+    swarmmode = false
+    watch = true
