@@ -35,6 +35,10 @@ services:
   portiner:
     container_name: Portainer
     image: portainer/portainer:latest
+    command: -H unix:///var/run/docker.sock --no-auth
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./mount/portainer:/data
     network_mode: "DOCKER_network"
     labels:
       - "traefik.backend=PORTAINER"
