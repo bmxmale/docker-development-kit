@@ -1,0 +1,2214 @@
+{
+  "version": 1,
+  "width": 211,
+  "height": 28,
+  "duration": 63.172788,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.027795,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development\u001b[01;31m\u001b[00m$ "
+    ],
+    [
+      0.533648,
+      "g"
+    ],
+    [
+      0.111934,
+      "i"
+    ],
+    [
+      0.159881,
+      "t"
+    ],
+    [
+      0.192211,
+      " "
+    ],
+    [
+      0.399569,
+      "c"
+    ],
+    [
+      0.072085,
+      "l"
+    ],
+    [
+      0.184107,
+      "o"
+    ],
+    [
+      0.232005,
+      "n"
+    ],
+    [
+      0.088136,
+      "e"
+    ],
+    [
+      0.119526,
+      " "
+    ],
+    [
+      0.129114,
+      "-"
+    ],
+    [
+      0.207325,
+      "-"
+    ],
+    [
+      0.095711,
+      "b"
+    ],
+    [
+      0.2084,
+      "r"
+    ],
+    [
+      0.079762,
+      "a"
+    ],
+    [
+      0.104185,
+      "n"
+    ],
+    [
+      0.21582,
+      "c"
+    ],
+    [
+      0.184186,
+      "h"
+    ],
+    [
+      0.559894,
+      " "
+    ],
+    [
+      0.215981,
+      "d"
+    ],
+    [
+      0.071731,
+      "e"
+    ],
+    [
+      0.183943,
+      "v"
+    ],
+    [
+      0.11997,
+      "e"
+    ],
+    [
+      0.295986,
+      "l"
+    ],
+    [
+      0.207967,
+      "o"
+    ],
+    [
+      0.200612,
+      "p"
+    ],
+    [
+      0.247585,
+      " "
+    ],
+    [
+      0.584333,
+      "-"
+    ],
+    [
+      0.152117,
+      "-"
+    ],
+    [
+      0.135901,
+      "s"
+    ],
+    [
+      0.095982,
+      "i"
+    ],
+    [
+      0.312008,
+      "n"
+    ],
+    [
+      0.167748,
+      "g"
+    ],
+    [
+      0.172292,
+      "l"
+    ],
+    [
+      0.092016,
+      "e"
+    ],
+    [
+      0.27222,
+      "-"
+    ],
+    [
+      0.175578,
+      "b"
+    ],
+    [
+      0.223921,
+      "r"
+    ],
+    [
+      0.071984,
+      "a"
+    ],
+    [
+      0.143912,
+      "n"
+    ],
+    [
+      0.184317,
+      "c"
+    ],
+    [
+      0.127757,
+      "h"
+    ],
+    [
+      0.168364,
+      " "
+    ],
+    [
+      0.392017,
+      "g"
+    ],
+    [
+      0.112137,
+      "i"
+    ],
+    [
+      0.127426,
+      "t"
+    ],
+    [
+      0.408384,
+      "@"
+    ],
+    [
+      0.54387,
+      "g"
+    ],
+    [
+      0.128214,
+      "i"
+    ],
+    [
+      0.655853,
+      "t"
+    ],
+    [
+      0.463758,
+      "h"
+    ],
+    [
+      0.112075,
+      "u"
+    ],
+    [
+      0.35204,
+      "b"
+    ],
+    [
+      0.336417,
+      "."
+    ],
+    [
+      0.231706,
+      "c"
+    ],
+    [
+      0.199861,
+      "o"
+    ],
+    [
+      0.13528,
+      "m"
+    ],
+    [
+      0.664711,
+      ":"
+    ],
+    [
+      0.263712,
+      "b"
+    ],
+    [
+      0.136186,
+      "m"
+    ],
+    [
+      0.096026,
+      "x"
+    ],
+    [
+      0.192056,
+      "m"
+    ],
+    [
+      0.12007,
+      "a"
+    ],
+    [
+      0.119784,
+      "l"
+    ],
+    [
+      0.13605,
+      "e"
+    ],
+    [
+      0.296209,
+      "/"
+    ],
+    [
+      0.552133,
+      "d"
+    ],
+    [
+      0.120258,
+      "o"
+    ],
+    [
+      0.135175,
+      "c"
+    ],
+    [
+      0.136541,
+      "k"
+    ],
+    [
+      0.07963,
+      "e"
+    ],
+    [
+      0.096008,
+      "r"
+    ],
+    [
+      0.184299,
+      "-"
+    ],
+    [
+      0.223829,
+      "d"
+    ],
+    [
+      0.08017,
+      "e"
+    ],
+    [
+      0.208267,
+      "v"
+    ],
+    [
+      0.111872,
+      "e"
+    ],
+    [
+      0.247718,
+      "l"
+    ],
+    [
+      0.200114,
+      "o"
+    ],
+    [
+      0.152138,
+      "p"
+    ],
+    [
+      0.239684,
+      "m"
+    ],
+    [
+      0.136471,
+      "e"
+    ],
+    [
+      0.143787,
+      "n"
+    ],
+    [
+      0.175779,
+      "t"
+    ],
+    [
+      0.264625,
+      "-"
+    ],
+    [
+      0.255394,
+      "k"
+    ],
+    [
+      0.192078,
+      "i"
+    ],
+    [
+      0.151595,
+      "t"
+    ],
+    [
+      0.21589,
+      "."
+    ],
+    [
+      0.224215,
+      "g"
+    ],
+    [
+      0.12025,
+      "i"
+    ],
+    [
+      0.096073,
+      "t"
+    ],
+    [
+      0.619176,
+      "\r\n"
+    ],
+    [
+      0.001121,
+      "Cloning into 'docker-development-kit'...\r\n"
+    ],
+    [
+      1.620582,
+      "remote: Counting objects: 44, done.\u001b[K\r\n"
+    ],
+    [
+      0.000311,
+      "remote: Compressing objects:   3% (1/26)   \u001b[K\rremote: Compressing objects:   7% (2/26)   \u001b[K\rremote: Compressing objects:  11% (3/26)   \u001b[K\rremote: Compressing objects:  15% (4/26)   \u001b[K\rremote: Compressing objects:  19% (5/26)   \u001b[K\rremote: Compressing objects:  23% (6/26)   \u001b[K\rremote: Compressing objects:  26% (7/26)   \u001b[K\rremote: Compressing objects:  30% (8/26)   \u001b[K\rremote: Compressing objects:  34% (9/26)   \u001b[K\r"
+    ],
+    [
+      0.000523,
+      "remote: Compressing objects:  38% (10/26)   \u001b[K\rremote: Compressing objects:  42% (11/26)   \u001b[K\rremote: Compressing objects:  46% (12/26)   \u001b[K\rremote: Compressing objects:  50% (13/26)   \u001b[K\rremote: Compressing objects:  53% (14/26)   \u001b[K\rremote: Compressing objects:  57% (15/26)   \u001b[K\rremote: Compressing objects:  61% (16/26)   \u001b[K\rremote: Compressing objects:  65% (17/26)   \u001b[K\rremote: Compressing objects:  69% (18/26)   \u001b[K\rremote: Compressing objects:  73% (19/26)   \u001b[K\rremote: Compressing objects:  76% (20/26)   \u001b[K\rremote: Compressing objects:  80% (21/26)   \u001b[K\rremote: Compressing objects:  84% (22/26)   \u001b[K\rremote: Compressing objects:  88% (23/26)   \u001b[K\rremote: Compressing objects:  92% (24/26)   \u001b[K\rremote: Compressing objects:  96% (25/26)   \u001b[K\rremote: Compressing objects: 100% (26/26)   \u001b[K\rremote: Compressing objects: 100% (26/26), done.\u001b[K\r\n"
+    ],
+    [
+      0.124871,
+      "Receiving objects:   2% (1/44)   \r"
+    ],
+    [
+      0.000111,
+      "Receiving objects:   4% (2/44)   \rReceiving objects:   6% (3/44)   \rReceiving objects:   9% (4/44)   \r"
+    ],
+    [
+      3.2e-05,
+      "Receiving objects:  11% (5/44)   \rReceiving objects:  13% (6/44)   \rReceiving objects:  15% (7/44)   \r"
+    ],
+    [
+      3.4e-05,
+      "Receiving objects:  18% (8/44)   \r"
+    ],
+    [
+      0.000291,
+      "Receiving objects:  20% (9/44)   \r"
+    ],
+    [
+      8.9e-05,
+      "Receiving objects:  22% (10/44)   \rremote: Total 44 (delta 6), reused 40 (delta 5), pack-reused 0\u001b[K\r\nReceiving objects:  25% (11/44)   \rReceiving objects:  27% (12/44)   \rReceiving objects:  29% (13/44)   \r"
+    ],
+    [
+      0.000186,
+      "Receiving objects:  31% (14/44)   \rReceiving objects:  34% (15/44)   \rReceiving objects:  36% (16/44)   \r"
+    ],
+    [
+      9.5e-05,
+      "Receiving objects:  38% (17/44)   \rReceiving objects:  40% (18/44)   \rReceiving objects:  43% (19/44)   \r"
+    ],
+    [
+      5e-05,
+      "Receiving objects:  45% (20/44)   \rReceiving objects:  47% (21/44)   \r"
+    ],
+    [
+      3.1e-05,
+      "Receiving objects:  50% (22/44)   \rReceiving objects:  52% (23/44)   \r"
+    ],
+    [
+      3.3e-05,
+      "Receiving objects:  54% (24/44)   \r"
+    ],
+    [
+      3e-05,
+      "Receiving objects:  56% (25/44)   \rReceiving objects:  59% (26/44)   \r"
+    ],
+    [
+      7.7e-05,
+      "Receiving objects:  61% (27/44)   \rReceiving objects:  63% (28/44)   \rReceiving objects:  65% (29/44)   \rReceiving objects:  68% (30/44)   \r"
+    ],
+    [
+      6.5e-05,
+      "Receiving objects:  70% (31/44)   \r"
+    ],
+    [
+      2.8e-05,
+      "Receiving objects:  72% (32/44)   \r"
+    ],
+    [
+      1.6e-05,
+      "Receiving objects:  75% (33/44)   \rReceiving objects:  77% (34/44)   \r"
+    ],
+    [
+      1.2e-05,
+      "Receiving objects:  79% (35/44)   \rReceiving objects:  81% (36/44)   \r"
+    ],
+    [
+      7.8e-05,
+      "Receiving objects:  84% (37/44)   \r"
+    ],
+    [
+      6.9e-05,
+      "Receiving objects:  86% (38/44)   \r"
+    ],
+    [
+      1.2e-05,
+      "Receiving objects:  88% (39/44)   \rReceiving objects:  90% (40/44)   \r"
+    ],
+    [
+      3e-05,
+      "Receiving objects:  93% (41/44)   \r"
+    ],
+    [
+      1.7e-05,
+      "Receiving objects:  95% (42/44)   \rReceiving objects:  97% (43/44)   \r"
+    ],
+    [
+      2.9e-05,
+      "Receiving objects: 100% (44/44)   \r"
+    ],
+    [
+      1.3e-05,
+      "Receiving objects: 100% (44/44), 20.85 KiB | 20.85 MiB/s, done.\r\n"
+    ],
+    [
+      9.5e-05,
+      "Resolving deltas:   0% (0/6)   \r"
+    ],
+    [
+      6e-05,
+      "Resolving deltas:  16% (1/6)   \r"
+    ],
+    [
+      1.4e-05,
+      "Resolving deltas:  50% (3/6)   \rResolving deltas:  66% (4/6)   \r"
+    ],
+    [
+      1.6e-05,
+      "Resolving deltas:  83% (5/6)   \r"
+    ],
+    [
+      9e-06,
+      "Resolving deltas: 100% (6/6)   \r"
+    ],
+    [
+      2.5e-05,
+      "Resolving deltas: 100% (6/6), done.\r\n"
+    ],
+    [
+      0.136156,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development\u001b[01;31m\u001b[00m$ "
+    ],
+    [
+      1.95164,
+      "c"
+    ],
+    [
+      0.079989,
+      "d"
+    ],
+    [
+      0.167666,
+      " "
+    ],
+    [
+      0.688202,
+      "d"
+    ],
+    [
+      0.146379,
+      "ocker-development-kit/"
+    ],
+    [
+      0.629546,
+      "\r\n"
+    ],
+    [
+      0.00259,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      3.477852,
+      "c"
+    ],
+    [
+      0.143821,
+      "l"
+    ],
+    [
+      0.136042,
+      "e"
+    ],
+    [
+      0.103765,
+      "a"
+    ],
+    [
+      0.255627,
+      "r"
+    ],
+    [
+      0.29645,
+      "\r\n"
+    ],
+    [
+      0.000825,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.002563,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      0.492797,
+      "."
+    ],
+    [
+      0.303975,
+      "/"
+    ],
+    [
+      0.231857,
+      "b"
+    ],
+    [
+      0.159928,
+      "i"
+    ],
+    [
+      0.144041,
+      "n/"
+    ],
+    [
+      0.280133,
+      "i"
+    ],
+    [
+      0.288297,
+      "\u0007n"
+    ],
+    [
+      0.575545,
+      "s"
+    ],
+    [
+      0.14425,
+      "tallDocker.sh "
+    ],
+    [
+      0.703788,
+      "\r\n"
+    ],
+    [
+      0.003789,
+      "[sudo] hasło użytkownika mlerczak: "
+    ],
+    [
+      3.884194,
+      "\r\n"
+    ],
+    [
+      0.067621,
+      "\r0% [Pracuje]"
+    ],
+    [
+      0.096623,
+      "\r            \r"
+    ],
+    [
+      5.1e-05,
+      "Pobieranie:1 http://security.ubuntu.com/ubuntu artful-security InRelease [78,6 kB]\r\n\r0% [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [1 InRelease 3554 B/78,6 kB 5%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.006461,
+      "\r                                                                                                                                                                                                                  \rStary:2 http://ppa.launchpad.net/ondrej/php/ubuntu artful InRelease\r\n\r0% [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [1 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.co"
+    ],
+    [
+      0.000795,
+      "\r0% [2 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [1 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atl"
+    ],
+    [
+      0.000337,
+      "\r                                                                                                                                                                                                                  \rStary:3 http://pl.archive.ubuntu.com/ubuntu artful InRelease\r\n"
+    ],
+    [
+      1.9e-05,
+      "\r                                                                                                                                                                                                                  \r"
+    ],
+    [
+      0.000157,
+      "Ign.:4 http://dl.google.com/linux/chrome/deb stable InRelease\r\n\r0% [2 InRelease gpgv 20,8 kB] [Łączenie z archive.canonical.com (91.189.91.15)] [1 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com"
+    ],
+    [
+      0.028949,
+      "\r                                                                                                                                                                                                                  \rStary:5 http://pl.archive.ubuntu.com/ubuntu artful-updates InRelease\r\n"
+    ],
+    [
+      5e-05,
+      "\r0% [2 InRelease gpgv 20,8 kB] [Łączenie z archive.canonical.com (91.189.91.15)] [1 InRelease 15,1 kB/78,6 kB 19%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com"
+    ],
+    [
+      0.028661,
+      "\r                                                                                                                                                                                                                  \rStary:6 http://pl.archive.ubuntu.com/ubuntu artful-backports InRelease\r\n\r0% [2 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [1 InRelease 38,3 kB/78,6 kB 49%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagł"
+    ],
+    [
+      0.005359,
+      "�\r0% [Oczekiwanie na nagłówki] [1 InRelease 38,3 kB/78,6 kB 49%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagłówki] [Łączenie z deb.nod"
+    ],
+    [
+      0.000164,
+      "\r0% [3 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [1 InRelease 38,3 kB/78,6 kB 49%] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagłó"
+    ],
+    [
+      0.031398,
+      "\r                                                                                                                                                                                                                  \rStary:7 http://dl.google.com/linux/chrome/deb stable Release\r\n"
+    ],
+    [
+      5.4e-05,
+      "\r                                                                                                                                                                                                                  \r0% [3 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [1 InRelease 73,1 kB/78,6 kB 93%] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.004884,
+      "\r                                                                                                                                                                                                 \r0% [3 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.013808,
+      "\r                                                                                                                                                               \rStary:8 https://deb.nodesource.com/node_9.x artful InRelease\r\n\r                                                                                                                                                               \r0% [3 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.019231,
+      "\r                                                                                                                                   \rStary:9 https://download.docker.com/linux/ubuntu artful InRelease\r\n\r                                                                                                                                   \r0% [3 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.005426,
+      "\r                                                                                                       \r0% [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.000154,
+      "\r0% [5 InRelease gpgv 78,6 kB] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.01569,
+      "\r                                                                                                        \rStary:10 http://archive.canonical.com/ubuntu artful InRelease\r\n"
+    ],
+    [
+      5e-05,
+      "\r                                                                                                        \r0% [5 InRelease gpgv 78,6 kB] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.048216,
+      "\r                                                                            \r0% [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      3.8e-05,
+      "\r0% [6 InRelease gpgv 72,2 kB] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.065405,
+      "\r                                                                            \r0% [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]\r0% [Release.gpg gpgv 1189 B] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.058805,
+      "\r                                                                                           \r0% [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      9.2e-05,
+      "\r0% [1 InRelease gpgv 78,6 kB] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.061808,
+      "\r                                                                                            \r0% [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      9.5e-05,
+      "\r0% [8 InRelease gpgv 4622 B] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.058058,
+      "\r                                                                                           \r0% [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      1.9e-05,
+      "\r0% [9 InRelease gpgv 51,9 kB] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.061713,
+      "\r                                                                                            \r0% [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      4.2e-05,
+      "\r0% [10 InRelease gpgv 10,2 kB] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.055758,
+      "\r                                                                                             \r0% [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.21381,
+      "\r                                                                 \rIgn.:12 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful InRelease\r\n\r                                                                 \r0% [Pracuje]"
+    ],
+    [
+      0.129848,
+      "\r            \rStary:13 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful Release\r\n\r0% [Pracuje]"
+    ],
+    [
+      4.1e-05,
+      "\r0% [Release.gpg gpgv 1869 B]"
+    ],
+    [
+      0.056475,
+      "\r                            \r100% [Pracuje]\r              \r"
+    ],
+    [
+      1.9e-05,
+      "Pobrano 78,6 kB w 1s (73,5 kB/s)\r\n"
+    ],
+    [
+      0.061308,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.007665,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.011381,
+      "\rCzytanie list pakietów... 1%\r"
+    ],
+    [
+      0.036119,
+      "\rCzytanie list pakietów... 4%\r\rCzytanie list pakietów... 4%\r"
+    ],
+    [
+      0.035551,
+      "\rCzytanie list pakietów... 8%\r\rCzytanie list pakietów... 8%\r"
+    ],
+    [
+      0.003253,
+      "\rCzytanie list pakietów... 9%\r\rCzytanie list pakietów... 9%\r"
+    ],
+    [
+      0.007455,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000516,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.0005,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.00017,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000216,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.378449,
+      "\rCzytanie list pakietów... 43%\r\rCzytanie list pakietów... 43%\r"
+    ],
+    [
+      0.241415,
+      "\rCzytanie list pakietów... 70%\r"
+    ],
+    [
+      0.035403,
+      "\rCzytanie list pakietów... 73%\r\rCzytanie list pakietów... 73%\r"
+    ],
+    [
+      0.010467,
+      "\rCzytanie list pakietów... 76%\r\rCzytanie list pakietów... 76%\r"
+    ],
+    [
+      0.06215,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.007468,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.00411,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.000251,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.001162,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.009033,
+      "\rCzytanie list pakietów... 95%\r\rCzytanie list pakietów... 95%\r"
+    ],
+    [
+      0.008384,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.002081,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000258,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000239,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      9e-05,
+      "\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000154,
+      "\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.004198,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.003136,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000577,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000216,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000298,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000411,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000216,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000221,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000224,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000328,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000173,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      3.1e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000325,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000198,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000248,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000345,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.001539,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      5.3e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.001451,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000881,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      7.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000197,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000163,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      4.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.00046,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000531,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      8.3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.0004,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      5.5e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      5.1e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000265,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.00044,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000385,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000321,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000417,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000163,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000309,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.002564,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.001966,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.037091,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.060909,
+      "\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.076314,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.024153,
+      "\rCzytanie list pakietów... 100%\r\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.006734,
+      "\rBudowanie drzewa zależności... 0%\r\rBudowanie drzewa zależności... 0%\r"
+    ],
+    [
+      0.031798,
+      "\rBudowanie drzewa zależności... 50%\r\rBudowanie drzewa zależności... 50%\r"
+    ],
+    [
+      0.162503,
+      "\rBudowanie drzewa zależności       \r\r\n\rOdczyt informacji o stanie... 0%\r\rOdczyt informacji o stanie... 0%\r"
+    ],
+    [
+      0.000299,
+      "\rOdczyt informacji o stanie... Gotowe\r\r\n"
+    ],
+    [
+      0.033764,
+      "ca-certificates is already the newest version (20170717).\r\nsoftware-properties-common is already the newest version (0.96.24.17).\r\napt-transport-https is already the newest version (1.5.1).\r\ncurl is already the newest version (7.55.1-1ubuntu2.3).\r\n"
+    ],
+    [
+      0.148387,
+      "0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 0 nieaktualizowanych.\r\n"
+    ],
+    [
+      0.202318,
+      "OK\r\n"
+    ],
+    [
+      0.555695,
+      "\r0% [Pracuje]"
+    ],
+    [
+      0.041186,
+      "\r            \r"
+    ],
+    [
+      7.6e-05,
+      "Ign.:1 http://dl.google.com/linux/chrome/deb stable InRelease\r\n\r0% [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com (52.20"
+    ],
+    [
+      0.025879,
+      "\r                                                                                                                                                                                                                  \rStary:2 http://pl.archive.ubuntu.com/ubuntu artful InRelease\r\n\r0% [Oczekiwanie na nagłówki] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)] [Oczekiwanie na n"
+    ],
+    [
+      0.000829,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.ar"
+    ],
+    [
+      0.007022,
+      "\r                                                                                                                                                                                                                  \rStary:3 http://archive.canonical.com/ubuntu artful InRelease\r\n"
+    ],
+    [
+      1.8e-05,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com (52.205."
+    ],
+    [
+      0.006902,
+      "\r                                                                                                                                                                                                                  \rStary:4 http://ppa.launchpad.net/ondrej/php/ubuntu artful InRelease\r\n"
+    ],
+    [
+      8.6e-05,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com (52.205."
+    ],
+    [
+      0.009519,
+      "\r                                                                                                                                                                                                                  \rStary:5 http://pl.archive.ubuntu.com/ubuntu artful-updates InRelease\r\n\r0% [2 InRelease gpgv 237 kB] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.95)] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)] [Oczekiwanie na nag"
+    ],
+    [
+      0.028616,
+      "\r                                                                                                                                                                                                                  \rStary:6 http://pl.archive.ubuntu.com/ubuntu artful-backports InRelease\r\n"
+    ],
+    [
+      6.7e-05,
+      "\r                                                                                                                                                                                                                  \r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.016321,
+      "\r                                                                                                                                                                                                           \rStary:7 http://dl.google.com/linux/chrome/deb stable Release\r\n\r                                                                                                                                                                                                           \r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.006568,
+      "\r                                                                                                                                                                               \rStary:8 https://download.docker.com/linux/ubuntu artful InRelease\r\n"
+    ],
+    [
+      8.4e-05,
+      "\r                                                                                                                                                                               \r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.006077,
+      "\r                                                                                                                                                   \r0% [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      2.7e-05,
+      "\r                                                                                                                         \rStary:9 https://deb.nodesource.com/node_9.x artful InRelease\r\n\r                                                                                                                         \r0% [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      1.2e-05,
+      "\r0% [3 InRelease gpgv 10,2 kB] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.061781,
+      "\r                                                                                                                        \r0% [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      2.2e-05,
+      "\r0% [4 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.027751,
+      "\r                                                                                                                        \rPobieranie:10 http://security.ubuntu.com/ubuntu artful-security InRelease [78,6 kB]\r\n\r0% [4 InRelease gpgv 20,8 kB] [10 InRelease 978 B/78,6 kB 1%] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.030093,
+      "\r                                                                                                                            \r0% [10 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      2.8e-05,
+      "\r0% [5 InRelease gpgv 78,6 kB] [10 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.063236,
+      "\r                                                                                                                               \r0% [10 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      6e-05,
+      "\r0% [6 InRelease gpgv 72,2 kB] [10 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.064448,
+      "\r                                                                                                                               \r0% [10 InRelease 38,3 kB/78,6 kB 49%] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      2.4e-05,
+      "\r0% [Release.gpg gpgv 1189 B] [10 InRelease 38,3 kB/78,6 kB 49%] [Łączenie z atlassian.artifactoryonline.com (52.205.128.96)]"
+    ],
+    [
+      0.059875,
+      "\r                                                                                                                              \r0% [10 InRelease 38,3 kB/78,6 kB 49%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      2e-05,
+      "\r0% [8 InRelease gpgv 51,9 kB] [10 InRelease 38,3 kB/78,6 kB 49%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.06114,
+      "\r                                                                                            \r0% [10 InRelease 62,8 kB/78,6 kB 80%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      4.6e-05,
+      "\r0% [9 InRelease gpgv 4622 B] [10 InRelease 62,8 kB/78,6 kB 80%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.017938,
+      "\r                                                                                           \rIgn.:12 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful InRelease\r\n\r                                                                                           \r0% [9 InRelease gpgv 4622 B] [10 InRelease 70,5 kB/78,6 kB 90%]"
+    ],
+    [
+      0.008166,
+      "\r                                                               \r0% [9 InRelease gpgv 4622 B] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.034278,
+      "\r                                                        \r0% [Oczekiwanie na nagłówki]"
+    ],
+    [
+      2.4e-05,
+      "\r0% [10 InRelease gpgv 78,6 kB] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.064012,
+      "\r                                                          \r0% [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.033437,
+      "\r                              \rStary:13 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful Release\r\n\r                              \r0% [Pracuje]"
+    ],
+    [
+      0.000165,
+      "\r0% [Release.gpg gpgv 1869 B]"
+    ],
+    [
+      0.057226,
+      "\r                            \r100% [Pracuje]\r              \r"
+    ],
+    [
+      8.6e-05,
+      "Pobrano 78,6 kB w 0s (107 kB/s)\r\n"
+    ],
+    [
+      2.030432,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.007058,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.013463,
+      "\rCzytanie list pakietów... 1%\r"
+    ],
+    [
+      0.035869,
+      "\rCzytanie list pakietów... 4%\r\rCzytanie list pakietów... 4%\r"
+    ],
+    [
+      0.03487,
+      "\rCzytanie list pakietów... 8%\r\rCzytanie list pakietów... 8%\r"
+    ],
+    [
+      0.003483,
+      "\rCzytanie list pakietów... 9%\r\rCzytanie list pakietów... 9%\r"
+    ],
+    [
+      0.007523,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.00045,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000458,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000189,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000186,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.3901,
+      "\rCzytanie list pakietów... 43%\r\rCzytanie list pakietów... 43%\r"
+    ],
+    [
+      0.231748,
+      "\rCzytanie list pakietów... 69%\r"
+    ],
+    [
+      0.054385,
+      "\rCzytanie list pakietów... 73%\r\rCzytanie list pakietów... 73%\r"
+    ],
+    [
+      0.012652,
+      "\rCzytanie list pakietów... 76%\r\rCzytanie list pakietów... 76%\r"
+    ],
+    [
+      0.059631,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.00792,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.004218,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.000283,
+      "\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      8.6e-05,
+      "\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.001287,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.009501,
+      "\rCzytanie list pakietów... 95%\r\rCzytanie list pakietów... 95%\r"
+    ],
+    [
+      0.00944,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.00165,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000267,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000258,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000131,
+      "\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      1.4e-05,
+      "\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.004079,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.003161,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000557,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000203,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000297,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000498,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000165,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000172,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      6.6e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000251,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000301,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000244,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000515,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000206,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000225,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000313,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      4.6e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.001177,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      1.9e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.00118,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      4.7e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000803,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.5e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      6.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      2.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000123,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.4e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      7.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.4e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000473,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.5e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000518,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3.1e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000249,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.5e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      6.7e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3.1e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000194,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000332,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000344,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000307,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.00033,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      5.3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000145,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000326,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3.6e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.002508,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      4.7e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.002584,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3.6e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.03767,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.066175,
+      "\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.075429,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.025291,
+      "\rCzytanie list pakietów... 100%\r\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.007832,
+      "\rBudowanie drzewa zależności... 0%\r\rBudowanie drzewa zależności... 0%\r"
+    ],
+    [
+      0.031221,
+      "\rBudowanie drzewa zależności... 50%\r\rBudowanie drzewa zależności... 50%\r"
+    ],
+    [
+      0.169244,
+      "\rBudowanie drzewa zależności       \r\r\n\rOdczyt informacji o stanie... 0%\r\rOdczyt informacji o stanie... 0%\r"
+    ],
+    [
+      0.000324,
+      "\rOdczyt informacji o stanie... Gotowe\r\r\n"
+    ],
+    [
+      0.159071,
+      "The following additional packages will be installed:\r\n"
+    ],
+    [
+      0.000808,
+      "  aufs-tools cgroupfs-mount python-backports.ssl-match-hostname python-cached-property python-certifi python-docker python-dockerpty python-docopt python-funcsigs python-functools32 python-jsonschema\r\n"
+    ],
+    [
+      0.000361,
+      "  python-mock python-openssl python-pbr python-requests python-texttable python-urllib3 python-websocket python-yaml\r\n"
+    ],
+    [
+      0.00146,
+      "Sugerowane pakiety:\r\n  python-funcsigs-doc python-mock-doc python-openssl-doc python-openssl-dbg python-socks python-ntlm\r\nPolecane pakiety:\r\n  docker.io\r\n"
+    ],
+    [
+      0.018556,
+      "Zostaną zainstalowane następujące NOWE pakiety:\r\n"
+    ],
+    [
+      0.000906,
+      "  aufs-tools cgroupfs-mount docker-ce docker-compose python-backports.ssl-match-hostname python-cached-property python-certifi python-docker python-dockerpty python-docopt python-funcsigs python-functools32\r\n"
+    ],
+    [
+      0.000308,
+      "  python-jsonschema python-mock python-openssl python-pbr python-requests python-texttable python-urllib3 python-websocket python-yaml\r\n"
+    ],
+    [
+      0.009825,
+      "0 aktualizowanych, 21 nowo instalowanych, 0 usuwanych i 0 nieaktualizowanych.\r\nKonieczne pobranie 6320 B/30,7 MB archiwów.\r\n"
+    ],
+    [
+      6.2e-05,
+      "Po tej operacji zostanie dodatkowo użyte 153 MB miejsca na dysku.\r\n"
+    ],
+    [
+      0.005211,
+      "\r99% [Pracuje]"
+    ],
+    [
+      0.062282,
+      "\r             \rPobieranie:1 http://pl.archive.ubuntu.com/ubuntu artful/universe amd64 cgroupfs-mount all 1.4 [6320 B]\r\n\r99% [1 cgroupfs-mount 5222 B/6320 B 83%]"
+    ],
+    [
+      0.000785,
+      "\r                                        \r100% [Pracuje]\r              \rPobrano 6320 B w 0s (100 kB/s)\r\n"
+    ],
+    [
+      0.437886,
+      "Wybieranie wcześniej niewybranego pakietu aufs-tools.\r\n(Odczytywanie bazy danych ... \r"
+    ],
+    [
+      0.004998,
+      "(Odczytywanie bazy danych ... 5%\r(Odczytywanie bazy danych ... 10%\r(Odczytywanie bazy danych ... 15%\r(Odczytywanie bazy danych ... 20%\r(Odczytywanie bazy danych ... 25%\r(Odczytywanie bazy danych ... 30%\r(Odczytywanie bazy danych ... 35%\r(Odczytywanie bazy danych ... 40%\r(Odczytywanie bazy danych ... 45%\r(Odczytywanie bazy danych ... 50%\r"
+    ],
+    [
+      0.009851,
+      "(Odczytywanie bazy danych ... 55%\r"
+    ],
+    [
+      0.004211,
+      "(Odczytywanie bazy danych ... 60%\r"
+    ],
+    [
+      0.015276,
+      "(Odczytywanie bazy danych ... 65%\r"
+    ],
+    [
+      0.003993,
+      "(Odczytywanie bazy danych ... 70%\r"
+    ],
+    [
+      0.005629,
+      "(Odczytywanie bazy danych ... 75%\r"
+    ],
+    [
+      0.004932,
+      "(Odczytywanie bazy danych ... 80%\r"
+    ],
+    [
+      0.008904,
+      "(Odczytywanie bazy danych ... 85%\r"
+    ],
+    [
+      0.001495,
+      "(Odczytywanie bazy danych ... 90%\r"
+    ],
+    [
+      0.00191,
+      "(Odczytywanie bazy danych ... 95%\r"
+    ],
+    [
+      0.005781,
+      "(Odczytywanie bazy danych ... 100%\r(Odczytywanie bazy danych ... 174906 plików i katalogów obecnie zainstalowanych.)\r\n"
+    ],
+    [
+      0.004961,
+      "Przygotowywanie do rozpakowania pakietu .../00-aufs-tools_1%3a4.1+20161219-1ubuntu0.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.010876,
+      "Rozpakowywanie pakietu aufs-tools (1:4.1+20161219-1ubuntu0.1) ...\r\n"
+    ],
+    [
+      0.103066,
+      "Wybieranie wcześniej niewybranego pakietu cgroupfs-mount.\r\n"
+    ],
+    [
+      0.010153,
+      "Przygotowywanie do rozpakowania pakietu .../01-cgroupfs-mount_1.4_all.deb ...\r\n"
+    ],
+    [
+      0.010199,
+      "Rozpakowywanie pakietu cgroupfs-mount (1.4) ...\r\n"
+    ],
+    [
+      0.090492,
+      "Wybieranie wcześniej niewybranego pakietu docker-ce.\r\n"
+    ],
+    [
+      0.009793,
+      "Przygotowywanie do rozpakowania pakietu .../02-docker-ce_17.12.0~ce-0~ubuntu_amd64.deb ...\r\n"
+    ],
+    [
+      0.005584,
+      "Rozpakowywanie pakietu docker-ce (17.12.0~ce-0~ubuntu) ...\r\n"
+    ],
+    [
+      2.770938,
+      "Wybieranie wcześniej niewybranego pakietu python-cached-property.\r\n"
+    ],
+    [
+      0.009256,
+      "Przygotowywanie do rozpakowania pakietu .../03-python-cached-property_1.3.0-2_all.deb ...\r\n"
+    ],
+    [
+      0.010047,
+      "Rozpakowywanie pakietu python-cached-property (1.3.0-2) ...\r\n"
+    ],
+    [
+      0.050587,
+      "Wybieranie wcześniej niewybranego pakietu python-certifi.\r\n"
+    ],
+    [
+      0.010637,
+      "Przygotowywanie do rozpakowania pakietu .../04-python-certifi_2017.4.17-2_all.deb ...\r\n"
+    ],
+    [
+      0.007802,
+      "Rozpakowywanie pakietu python-certifi (2017.4.17-2) ...\r\n"
+    ],
+    [
+      0.069082,
+      "Wybieranie wcześniej niewybranego pakietu python-urllib3.\r\n"
+    ],
+    [
+      0.009177,
+      "Przygotowywanie do rozpakowania pakietu .../05-python-urllib3_1.21.1-1_all.deb ...\r\n"
+    ],
+    [
+      0.005279,
+      "Rozpakowywanie pakietu python-urllib3 (1.21.1-1) ...\r\n"
+    ],
+    [
+      0.081805,
+      "Wybieranie wcześniej niewybranego pakietu python-requests.\r\n"
+    ],
+    [
+      0.009226,
+      "Przygotowywanie do rozpakowania pakietu .../06-python-requests_2.18.1-1_all.deb ...\r\n"
+    ],
+    [
+      0.004913,
+      "Rozpakowywanie pakietu python-requests (2.18.1-1) ...\r\n"
+    ],
+    [
+      0.096742,
+      "Wybieranie wcześniej niewybranego pakietu python-websocket.\r\n"
+    ],
+    [
+      0.009173,
+      "Przygotowywanie do rozpakowania pakietu .../07-python-websocket_0.44.0-0ubuntu2_all.deb ...\r\n"
+    ],
+    [
+      0.005608,
+      "Rozpakowywanie pakietu python-websocket (0.44.0-0ubuntu2) ...\r\n"
+    ],
+    [
+      0.072775,
+      "Wybieranie wcześniej niewybranego pakietu python-backports.ssl-match-hostname.\r\n"
+    ],
+    [
+      0.009395,
+      "Przygotowywanie do rozpakowania pakietu .../08-python-backports.ssl-match-hostname_3.5.0.1-1_all.deb ...\r\n"
+    ],
+    [
+      0.009953,
+      "Rozpakowywanie pakietu python-backports.ssl-match-hostname (3.5.0.1-1) ...\r\n"
+    ],
+    [
+      0.053901,
+      "Wybieranie wcześniej niewybranego pakietu python-docker.\r\n"
+    ],
+    [
+      0.009444,
+      "Przygotowywanie do rozpakowania pakietu .../09-python-docker_1.9.0-1_all.deb ...\r\n"
+    ],
+    [
+      0.004745,
+      "Rozpakowywanie pakietu python-docker (1.9.0-1) ...\r\n"
+    ],
+    [
+      0.086632,
+      "Wybieranie wcześniej niewybranego pakietu python-dockerpty.\r\n"
+    ],
+    [
+      0.009424,
+      "Przygotowywanie do rozpakowania pakietu .../10-python-dockerpty_0.4.1-1_all.deb ...\r\n"
+    ],
+    [
+      0.004872,
+      "Rozpakowywanie pakietu python-dockerpty (0.4.1-1) ...\r\n"
+    ],
+    [
+      0.07408,
+      "Wybieranie wcześniej niewybranego pakietu python-docopt.\r\n"
+    ],
+    [
+      0.009294,
+      "Przygotowywanie do rozpakowania pakietu .../11-python-docopt_0.6.2-1build1_all.deb ...\r\n"
+    ],
+    [
+      0.010381,
+      "Rozpakowywanie pakietu python-docopt (0.6.2-1build1) ...\r\n"
+    ],
+    [
+      0.078176,
+      "Wybieranie wcześniej niewybranego pakietu python-functools32.\r\n"
+    ],
+    [
+      0.009392,
+      "Przygotowywanie do rozpakowania pakietu .../12-python-functools32_3.2.3.2-3_all.deb ...\r\n"
+    ],
+    [
+      0.004936,
+      "Rozpakowywanie pakietu python-functools32 (3.2.3.2-3) ...\r\n"
+    ],
+    [
+      0.050393,
+      "Wybieranie wcześniej niewybranego pakietu python-funcsigs.\r\n"
+    ],
+    [
+      0.009514,
+      "Przygotowywanie do rozpakowania pakietu .../13-python-funcsigs_1.0.2-3_all.deb ...\r\n"
+    ],
+    [
+      0.005096,
+      "Rozpakowywanie pakietu python-funcsigs (1.0.2-3) ...\r\n"
+    ],
+    [
+      0.080571,
+      "Wybieranie wcześniej niewybranego pakietu python-pbr.\r\n"
+    ],
+    [
+      0.009396,
+      "Przygotowywanie do rozpakowania pakietu .../14-python-pbr_2.0.0-0ubuntu1_all.deb ...\r\n"
+    ],
+    [
+      0.010602,
+      "Rozpakowywanie pakietu python-pbr (2.0.0-0ubuntu1) ...\r\n"
+    ],
+    [
+      0.102836,
+      "Wybieranie wcześniej niewybranego pakietu python-mock.\r\n"
+    ],
+    [
+      0.009557,
+      "Przygotowywanie do rozpakowania pakietu .../15-python-mock_2.0.0-3_all.deb ...\r\n"
+    ],
+    [
+      0.01084,
+      "Rozpakowywanie pakietu python-mock (2.0.0-3) ...\r\n"
+    ],
+    [
+      0.068451,
+      "Wybieranie wcześniej niewybranego pakietu python-jsonschema.\r\n"
+    ],
+    [
+      0.009567,
+      "Przygotowywanie do rozpakowania pakietu .../16-python-jsonschema_2.5.1-6_all.deb ...\r\n"
+    ],
+    [
+      0.010416,
+      "Rozpakowywanie pakietu python-jsonschema (2.5.1-6) ...\r\n"
+    ],
+    [
+      0.068282,
+      "Wybieranie wcześniej niewybranego pakietu python-texttable.\r\n"
+    ],
+    [
+      0.009281,
+      "Przygotowywanie do rozpakowania pakietu .../17-python-texttable_0.9.1-1_all.deb ...\r\n"
+    ],
+    [
+      0.005242,
+      "Rozpakowywanie pakietu python-texttable (0.9.1-1) ...\r\n"
+    ],
+    [
+      0.078358,
+      "Wybieranie wcześniej niewybranego pakietu python-yaml.\r\n"
+    ],
+    [
+      0.009736,
+      "Przygotowywanie do rozpakowania pakietu .../18-python-yaml_3.12-1build2_amd64.deb ...\r\n"
+    ],
+    [
+      0.008034,
+      "Rozpakowywanie pakietu python-yaml (3.12-1build2) ...\r\n"
+    ],
+    [
+      0.085904,
+      "Wybieranie wcześniej niewybranego pakietu docker-compose.\r\n"
+    ],
+    [
+      0.009979,
+      "Przygotowywanie do rozpakowania pakietu .../19-docker-compose_1.8.0-2_all.deb ...\r\n"
+    ],
+    [
+      0.010359,
+      "Rozpakowywanie pakietu docker-compose (1.8.0-2) ...\r\n"
+    ],
+    [
+      0.095629,
+      "Wybieranie wcześniej niewybranego pakietu python-openssl.\r\n"
+    ],
+    [
+      0.009286,
+      "Przygotowywanie do rozpakowania pakietu .../20-python-openssl_16.2.0-1_all.deb ...\r\n"
+    ],
+    [
+      0.010789,
+      "Rozpakowywanie pakietu python-openssl (16.2.0-1) ...\r\n"
+    ],
+    [
+      0.082419,
+      "Konfigurowanie pakietu aufs-tools (1:4.1+20161219-1ubuntu0.1) ...\r\n"
+    ],
+    [
+      0.034295,
+      "Konfigurowanie pakietu python-texttable (0.9.1-1) ...\r\n"
+    ],
+    [
+      0.083656,
+      "Konfigurowanie pakietu docker-ce (17.12.0~ce-0~ubuntu) ...\r\n"
+    ],
+    [
+      1.092421,
+      "Konfigurowanie pakietu python-functools32 (3.2.3.2-3) ...\r\n"
+    ],
+    [
+      0.076415,
+      "Konfigurowanie pakietu python-urllib3 (1.21.1-1) ...\r\n"
+    ],
+    [
+      0.101227,
+      "Konfigurowanie pakietu python-yaml (3.12-1build2) ...\r\n"
+    ],
+    [
+      0.089697,
+      "Przetwarzanie wyzwalaczy pakietu ureadahead (0.100.0-20)...\r\n"
+    ],
+    [
+      0.11249,
+      "Konfigurowanie pakietu python-openssl (16.2.0-1) ...\r\n"
+    ],
+    [
+      0.082366,
+      "Konfigurowanie pakietu python-certifi (2017.4.17-2) ...\r\n"
+    ],
+    [
+      0.06736,
+      "Konfigurowanie pakietu cgroupfs-mount (1.4) ...\r\n"
+    ],
+    [
+      0.284709,
+      "Konfigurowanie pakietu python-backports.ssl-match-hostname (3.5.0.1-1) ...\r\n"
+    ],
+    [
+      0.066416,
+      "Konfigurowanie pakietu python-websocket (0.44.0-0ubuntu2) ...\r\n"
+    ],
+    [
+      0.013738,
+      "update-alternatives: użycie /usr/bin/python2-wsdump jako dostarczającego /usr/bin/wsdump (wsdump) w trybie automatycznym\r\n"
+    ],
+    [
+      0.075588,
+      "Przetwarzanie wyzwalaczy pakietu libc-bin (2.26-0ubuntu2.1)...\r\n"
+    ],
+    [
+      0.028321,
+      "Konfigurowanie pakietu python-dockerpty (0.4.1-1) ...\r\n"
+    ],
+    [
+      0.075146,
+      "Konfigurowanie pakietu python-pbr (2.0.0-0ubuntu1) ...\r\n"
+    ],
+    [
+      0.0228,
+      "update-alternatives: użycie /usr/bin/python2-pbr jako dostarczającego /usr/bin/pbr (pbr) w trybie automatycznym\r\n"
+    ],
+    [
+      0.08289,
+      "Przetwarzanie wyzwalaczy pakietu systemd (234-2ubuntu12.1)...\r\n"
+    ],
+    [
+      0.106015,
+      "Konfigurowanie pakietu python-funcsigs (1.0.2-3) ...\r\n"
+    ],
+    [
+      0.07002,
+      "Konfigurowanie pakietu python-requests (2.18.1-1) ...\r\n"
+    ],
+    [
+      0.078938,
+      "Przetwarzanie wyzwalaczy pakietu man-db (2.7.6.1-2)...\r\n"
+    ],
+    [
+      0.407043,
+      "Konfigurowanie pakietu python-docopt (0.6.2-1build1) ...\r\n"
+    ],
+    [
+      0.074422,
+      "Konfigurowanie pakietu python-cached-property (1.3.0-2) ...\r\n"
+    ],
+    [
+      0.064147,
+      "Konfigurowanie pakietu python-docker (1.9.0-1) ...\r\n"
+    ],
+    [
+      0.080931,
+      "Konfigurowanie pakietu python-mock (2.0.0-3) ...\r\n"
+    ],
+    [
+      0.101052,
+      "Konfigurowanie pakietu python-jsonschema (2.5.1-6) ...\r\n"
+    ],
+    [
+      0.012307,
+      "update-alternatives: użycie /usr/bin/python2-jsonschema jako dostarczającego /usr/bin/jsonschema (jsonschema) w trybie automatycznym\r\n"
+    ],
+    [
+      0.074076,
+      "Konfigurowanie pakietu docker-compose (1.8.0-2) ...\r\n"
+    ],
+    [
+      1.251411,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      1.477473,
+      "c"
+    ],
+    [
+      0.095832,
+      "l"
+    ],
+    [
+      0.10394,
+      "e"
+    ],
+    [
+      0.151626,
+      "a"
+    ],
+    [
+      0.200832,
+      "r"
+    ],
+    [
+      0.215648,
+      "\r\n"
+    ],
+    [
+      0.000749,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.002679,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      0.58871,
+      "d"
+    ],
+    [
+      0.159594,
+      "o"
+    ],
+    [
+      0.23236,
+      "c"
+    ],
+    [
+      0.183838,
+      "k"
+    ],
+    [
+      0.080052,
+      "e"
+    ],
+    [
+      0.160417,
+      "r"
+    ],
+    [
+      0.211905,
+      " "
+    ],
+    [
+      0.139919,
+      "-"
+    ],
+    [
+      0.160165,
+      "v"
+    ],
+    [
+      0.471953,
+      "\r\n"
+    ],
+    [
+      0.011083,
+      "Docker version 17.12.0-ce, build c97c6d6\r\n"
+    ],
+    [
+      0.003189,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      0.849729,
+      "d"
+    ],
+    [
+      0.143739,
+      "o"
+    ],
+    [
+      0.15989,
+      "c"
+    ],
+    [
+      0.144437,
+      "k"
+    ],
+    [
+      0.079746,
+      "e"
+    ],
+    [
+      0.112042,
+      "r"
+    ],
+    [
+      0.215737,
+      "-"
+    ],
+    [
+      0.152195,
+      "c"
+    ],
+    [
+      0.112098,
+      "o"
+    ],
+    [
+      0.20006,
+      "m"
+    ],
+    [
+      0.152928,
+      "pose "
+    ],
+    [
+      0.43893,
+      "-"
+    ],
+    [
+      0.112051,
+      "v"
+    ],
+    [
+      0.327821,
+      "\r\n"
+    ],
+    [
+      0.305903,
+      "docker-compose version 1.8.0, build unknown\r\n"
+    ],
+    [
+      0.025052,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ]
+  ]
+}

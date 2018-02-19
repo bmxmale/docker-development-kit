@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "width": 211,
+  "height": 28,
+  "duration": 19.114904,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.031761,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      0.773044,
+      "d"
+    ],
+    [
+      0.103736,
+      "o"
+    ],
+    [
+      0.119749,
+      "c"
+    ],
+    [
+      0.104443,
+      "k"
+    ],
+    [
+      0.063826,
+      "e"
+    ],
+    [
+      0.103598,
+      "r"
+    ],
+    [
+      0.152338,
+      "-"
+    ],
+    [
+      0.191722,
+      "c"
+    ],
+    [
+      0.080123,
+      "o"
+    ],
+    [
+      0.18422,
+      "m"
+    ],
+    [
+      0.152626,
+      "pose "
+    ],
+    [
+      0.543491,
+      "-"
+    ],
+    [
+      0.103975,
+      "f"
+    ],
+    [
+      0.112132,
+      " "
+    ],
+    [
+      0.967741,
+      "e"
+    ],
+    [
+      0.224171,
+      "x"
+    ],
+    [
+      0.311153,
+      "\u0007"
+    ],
+    [
+      3.8e-05,
+      "ample-"
+    ],
+    [
+      0.584908,
+      "s"
+    ],
+    [
+      0.167333,
+      "y"
+    ],
+    [
+      0.110469,
+      "mfony4.yml "
+    ],
+    [
+      1.313809,
+      "u"
+    ],
+    [
+      0.183867,
+      "p"
+    ],
+    [
+      0.088334,
+      " "
+    ],
+    [
+      0.128025,
+      "-"
+    ],
+    [
+      0.111827,
+      "d"
+    ],
+    [
+      0.216124,
+      "\r\n"
+    ],
+    [
+      0.354838,
+      "\u001b[33mWARNING\u001b[0m: Found orphan containers (MailHog, Redis, Traefik, Portainer) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.\r\n"
+    ],
+    [
+      0.014561,
+      "Creating SF4_nginx\r\n"
+    ],
+    [
+      0.405434,
+      "Creating SF4_php\r\n"
+    ],
+    [
+      0.445212,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      1.771899,
+      "o"
+    ],
+    [
+      0.312311,
+      "\b\u001b[K"
+    ],
+    [
+      0.160021,
+      "d"
+    ],
+    [
+      0.112062,
+      "o"
+    ],
+    [
+      0.127491,
+      "c"
+    ],
+    [
+      0.120193,
+      "k"
+    ],
+    [
+      0.055909,
+      "e"
+    ],
+    [
+      0.103878,
+      "r"
+    ],
+    [
+      0.256343,
+      "-"
+    ],
+    [
+      0.231719,
+      "c"
+    ],
+    [
+      0.104331,
+      "o"
+    ],
+    [
+      0.191602,
+      "m"
+    ],
+    [
+      0.081441,
+      "pose "
+    ],
+    [
+      0.326837,
+      "-"
+    ],
+    [
+      0.095811,
+      "f"
+    ],
+    [
+      0.176191,
+      " "
+    ],
+    [
+      0.215837,
+      "e"
+    ],
+    [
+      0.239962,
+      "x"
+    ],
+    [
+      0.504062,
+      "a"
+    ],
+    [
+      0.270762,
+      "\u0007mple-"
+    ],
+    [
+      2.065059,
+      "m"
+    ],
+    [
+      0.141104,
+      "agento2.yml "
+    ],
+    [
+      0.938966,
+      "u"
+    ],
+    [
+      0.191585,
+      "p"
+    ],
+    [
+      0.111493,
+      " "
+    ],
+    [
+      0.145139,
+      "-"
+    ],
+    [
+      0.159868,
+      "d"
+    ],
+    [
+      0.232184,
+      "\r\n"
+    ],
+    [
+      0.362355,
+      "\u001b[33mWARNING\u001b[0m: Found orphan containers (SF4_php, SF4_nginx, MailHog, Redis, Traefik, Portainer) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.\r\n"
+    ],
+    [
+      0.020363,
+      "Creating MAGENTO2_nginx\r\n"
+    ],
+    [
+      0.404956,
+      "Creating MAGENTO2_php\r\n"
+    ],
+    [
+      0.433859,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ]
+  ]
+}
