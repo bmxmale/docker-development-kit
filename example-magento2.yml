@@ -1,0 +1,23 @@
+version: '2'
+services:
+  magento2_nginx:
+    container_name: MAGENTO2_nginx
+    image: nginx:stable
+    volumes:
+      - ./app/magento2:/srv/magento2
+      - ./mount/nginx/magento.conf:/etc/nginx/conf.d/default.conf
+    network_mode: "DOCKER_network"
+    labels:
+      - "traefik.backend=MAGENTO2"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:magento.udviklet.dk,secure.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+  magento2_php:
+    container_name: MAGENTO2_php
+    image: bmxmale/magento2-php:2.2
+    volumes_from:
+      - magento2_nginx
+    environment:
+      - PHP_USER=1000
+      - PHP_GROUP=1000
+    network_mode: "DOCKER_network"

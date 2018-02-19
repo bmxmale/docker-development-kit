@@ -1,0 +1,506 @@
+@charset "UTF-8";
+/**
+ * Blood theme for reveal.js
+ * Author: Walther http://github.com/Walther
+ *
+ * Designed to be used with highlight.js theme
+ * "monokai_sublime.css" available from
+ * https://github.com/isagalaev/highlight.js/
+ *
+ * For other themes, change $codeBackground accordingly.
+ *
+ */
+@font-face {
+    font-family: 'Fira Code';
+    src: url("../../lib/font/fira-code/eot/FiraCode-Light.eot");
+    src: url("../../lib/font/fira-code/eot/FiraCode-Light.eot") format("embedded-opentype"), url("../../lib/font/fira-code/woff2/FiraCode-Light.woff2") format("woff2"), url("../../lib/font/fira-code/woff/FiraCode-Light.woff") format("woff"), url("../../lib/font/fira-code/ttf/FiraCode-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url("../../lib/font/fira-code/eot/FiraCode-Regular.eot");
+    src: url("../../lib/font/fira-code/eot/FiraCode-Regular.eot") format("embedded-opentype"), url("../../lib/font/fira-code/woff2/FiraCode-Regular.woff2") format("woff2"), url("../../lib/font/fira-code/woff/FiraCode-Regular.woff") format("woff"), url("../../lib/font/fira-code/ttf/FiraCode-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url("../../lib/font/fira-code/eot/FiraCode-Medium.eot");
+    src: url("../../lib/font/fira-code/eot/FiraCode-Medium.eot") format("embedded-opentype"), url("../../lib/font/fira-code/woff2/FiraCode-Medium.woff2") format("woff2"), url("../../lib/font/fira-code/woff/FiraCode-Medium.woff") format("woff"), url("../../lib/font/fira-code/ttf/FiraCode-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url("../../lib/font/fira-code/eot/FiraCode-Bold.eot");
+    src: url("../../lib/font/fira-code/eot/FiraCode-Bold.eot") format("embedded-opentype"), url("../../lib/font/fira-code/woff2/FiraCode-Bold.woff2") format("woff2"), url("../../lib/font/fira-code/woff/FiraCode-Bold.woff") format("woff"), url("../../lib/font/fira-code/ttf/FiraCode-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+    background: #16181d;
+    background-color: #16181d;
+}
+
+.reveal {
+    font-family: "Fira Code", monospace;
+    font-size: 20px;
+    font-weight: normal;
+    color: #e2c4c3;
+}
+
+::selection {
+    color: #fff;
+    background: rgba(244, 98, 93, 0.9);
+    text-shadow: none;
+}
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+    line-height: 1.3;
+    font-weight: inherit;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    margin: 0 0 20px 0;
+    color: #f4625d;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #16181d;
+    word-wrap: break-word;
+}
+
+.reveal h1 {
+    font-size: 2em;
+}
+
+.reveal h2 {
+    font-size: 1.5em;
+}
+
+.reveal h3 {
+    font-size: 1.55em;
+}
+
+.reveal h4 {
+    font-size: 1em;
+}
+
+.reveal h1 {
+    text-shadow: none;
+}
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+    margin: 20px 0;
+    line-height: 1.3;
+}
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.reveal strong,
+.reveal b {
+    font-weight: bold;
+}
+
+.reveal em {
+    font-style: italic;
+}
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 0 0 1em;
+}
+
+.reveal ol {
+    list-style-type: decimal;
+}
+
+.reveal ul {
+    list-style-type: disc;
+}
+
+.reveal ul ul {
+    list-style-type: square;
+}
+
+.reveal ul ul ul {
+    list-style-type: circle;
+}
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+    display: block;
+    margin-left: 40px;
+}
+
+.reveal dt {
+    font-weight: bold;
+}
+
+.reveal dd {
+    margin-left: 40px;
+}
+
+.reveal q,
+.reveal blockquote {
+    quotes: none;
+}
+
+.reveal blockquote {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    padding: 5px;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+    display: inline-block;
+}
+
+.reveal q {
+    font-style: italic;
+}
+
+.reveal pre {
+    display: block;
+    position: relative;
+    width: 90%;
+    max-height: 50%;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 0.55em;
+    font-family: monospace;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.reveal code {
+    font-family: monospace;
+}
+
+.reveal pre code {
+    display: block;
+    padding: 5px;
+    overflow: auto;
+    word-wrap: normal;
+    height: 100%;
+}
+
+.reveal table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.reveal table th {
+    font-weight: bold;
+}
+
+.reveal table th,
+.reveal table td {
+    text-align: left;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-bottom: 1px solid;
+}
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+    text-align: center;
+}
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+    text-align: right;
+}
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.reveal sup {
+    vertical-align: super;
+}
+
+.reveal sub {
+    vertical-align: sub;
+}
+
+.reveal small {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+
+.reveal small * {
+    vertical-align: top;
+}
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+    color: #f4625d;
+    text-decoration: none;
+    -webkit-transition: color .15s ease;
+    -moz-transition: color .15s ease;
+    transition: color .15s ease;
+}
+
+.reveal a:hover {
+    color: #fabebc;
+    text-shadow: none;
+    border: none;
+}
+
+.reveal .roll span:after {
+    color: #fff;
+    background: #ef1d15;
+}
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+    margin: 15px 0px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 4px solid #e2c4c3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal section img.plain {
+    border: 0;
+    box-shadow: none;
+}
+
+.reveal a img {
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.reveal a:hover img {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #f4625d;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+    border-right-color: #f4625d;
+}
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+    border-left-color: #f4625d;
+}
+
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+    border-bottom-color: #f4625d;
+}
+
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+    border-top-color: #f4625d;
+}
+
+.reveal .controls .navigate-left.enabled:hover {
+    border-right-color: #fabebc;
+}
+
+.reveal .controls .navigate-right.enabled:hover {
+    border-left-color: #fabebc;
+}
+
+.reveal .controls .navigate-up.enabled:hover {
+    border-bottom-color: #fabebc;
+}
+
+.reveal .controls .navigate-down.enabled:hover {
+    border-top-color: #fabebc;
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.reveal .progress span {
+    background: #f4625d;
+    -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.reveal .slides {
+    text-align: left;
+}
+
+.reveal .slides section {
+    line-height: 1.5;
+}
+
+.reveal h1,
+.reveal h2 {
+    text-transform: none;
+}
+
+.reveal h1 {
+    margin-bottom: 1em;
+}
+
+.reveal h2 {
+    color: inherit;
+}
+
+.reveal ul {
+    margin-left: 0;
+    width: 75%;
+}
+
+.reveal ul li {
+    list-style-type: none;
+    padding-left: .15em;
+}
+
+.reveal ul li::before {
+    content: "//";
+    color: #6f3636;
+    font-weight: 300;
+    display: inline-block;
+    margin-left: -2em;
+    margin-right: .75em;
+}
+
+.reveal li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.reveal code {
+    background-color: #3c3138;
+    color: #c1b2b2;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: "Fira Code", monospace;
+    padding-left: .4em;
+    padding-right: .4em;
+}
+
+.reveal pre {
+    font-size: .6em;
+    line-height: 1.2;
+    width: 100%;
+    height: 450px;
+}
+
+.reveal pre::before {
+    background-color: #d8d8da;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #8c95a6;
+    content: "\2620";
+    display: block;
+    font-size: 1em;
+    line-height: 1.2;
+    text-indent: .5em;
+    width: 100%;
+}
+
+.reveal pre code {
+    background-color: #282c34;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 10px 15px;
+}
+
+.reveal p {
+    font-weight: 300;
+    text-shadow: 1px 1px #16181d;
+}
+
+.reveal small code {
+    vertical-align: baseline;
+}
+
+.reveal .slide-intro h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.reveal .slide-intro img {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: 50px;
+    max-width: 100px;
+}
+
+code::-webkit-scrollbar {
+    background-color: #434956;
+    width: .3em;
+}
+
+code::-webkit-scrollbar-thumb {
+    background-color: #f4625d;
+    border-radius: .2em;
+}
+
+.reveal pre.asciinema-terminal::before {
+    margin-bottom: 5px;
+}
+
+.reveal .controls {
+    color: #CCC;
+}

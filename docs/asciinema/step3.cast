@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "width": 211,
+  "height": 28,
+  "duration": 8.745363,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.02932,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      1.241333,
+      "d"
+    ],
+    [
+      0.069037,
+      "o"
+    ],
+    [
+      0.179112,
+      "c"
+    ],
+    [
+      0.111918,
+      "k"
+    ],
+    [
+      0.137178,
+      "\u0007"
+    ],
+    [
+      6.8e-05,
+      "er"
+    ],
+    [
+      0.215047,
+      "-"
+    ],
+    [
+      0.343693,
+      "c"
+    ],
+    [
+      0.096068,
+      "o"
+    ],
+    [
+      0.409074,
+      "\u0007"
+    ],
+    [
+      0.366935,
+      "m"
+    ],
+    [
+      0.128885,
+      "pose "
+    ],
+    [
+      1.591107,
+      "u"
+    ],
+    [
+      0.248114,
+      "p"
+    ],
+    [
+      0.245227,
+      " "
+    ],
+    [
+      0.183871,
+      "-"
+    ],
+    [
+      0.171035,
+      "d"
+    ],
+    [
+      0.579029,
+      "\r\n"
+    ],
+    [
+      0.449276,
+      "Creating MySQL\r\n"
+    ],
+    [
+      0.004389,
+      "Creating Portainer\r\n"
+    ],
+    [
+      0.002068,
+      "Creating Redis\r\n"
+    ],
+    [
+      0.002959,
+      "Creating Traefik\r\n"
+    ],
+    [
+      0.000311,
+      "Creating MailHog\r\n"
+    ],
+    [
+      1.939646,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/development/docker-development-kit\u001b[01;31m(develop)\u001b[00m$ "
+    ]
+  ]
+}

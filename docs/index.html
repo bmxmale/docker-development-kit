@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>How to create a development environment using Docker?</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/laravel.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="lib/css/asciinema-player.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal center">
+    <div class="slides">
+        <section>
+            <h1>How to create<br/>A development environment using Docker?</h1>
+            <div class="center">
+                <h4 class="fragment">smart & easily</h4>
+                <span class="fragment">with</span>
+                <span class="fragment">Docker Development Kit</span>
+            </div>
+        </section>
+        <section>
+            <section>
+                <h1>What is Docker?</h1>
+                <div>“Docker is a software technology providing operating-system-level virtualization also known as
+                    containers.”
+                </div>
+                <div class="fragment">
+                    <img height="500" src="docker-architecture.svg"/>
+                </div>
+            </section>
+            <section>
+                <h1>What is Docker Development Kit?</h1>
+                <div>DDK is set of Docker services which easily allow you to start development. Services on DDK:</div>
+                <div>
+                    <ul>
+                        <li class="fragment">Træfɪk, a modern reverse proxy</li>
+                        <li class="fragment">Portainer - Simple management UI for Docker</li>
+                        <li class="fragment">MailHog - Web and API based SMTP testing</li>
+                        <li class="fragment">MySQL - widely used, open-source relational database management system
+                            (RDBMS).
+                        </li>
+                        <li class="fragment">Redis is in-memory data structure store, used as a database, cache and
+                            message
+                            broker.
+                        </li>
+                        <li class="fragment">Elasticsearch is a distributed, RESTful search and analytics engine capable
+                            of
+                            solving a growing number of use cases.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h3>Step 1</h3>
+                <p>On first step you need to make 3 things</p>
+                <div>
+                    <ul>
+                        <li>Clone DDK</li>
+                        <li>Install Docker</li>
+                        <li>Run Post-installation steps for Linux</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>DDK</h3>
+                <h5>Clone DDK and install Docker</h5>
+                <asciinema-player src="asciinema/step1.cast" theme="solarized-dark" speed="2"></asciinema-player>
+            </section>
+            <section>
+                <h3>DDK</h3>
+                <h5>Post-installation steps for Linux</h5>
+                <asciinema-player src="asciinema/docker-post-install.cast" theme="solarized-dark"></asciinema-player>
+                <p>This action need reboot to get effect</p>
+            </section>
+        </section>
+        <section>
+            <h3>DDK</h3>
+            <h5>Create network & initialize MySQL</h5>
+            <asciinema-player src="asciinema/step2.cast" theme="solarized-dark"></asciinema-player>
+        </section>
+        <section>
+            <h3>DDK</h3>
+            <h5>Start Docker Development Kit</h5>
+            <div>
+                <p>On this step we creating base services like</p>
+                <ul>
+                    <li>Traefik, Portainer, MailHog, Redis, MySQL</li>
+                </ul>
+            </div>
+            <asciinema-player src="asciinema/step3.cast" theme="solarized-dark" rows="10"></asciinema-player>
+        </section>
+
+        <section>
+            <section>
+                <h3>Creating own compose file</h3>
+                <h5>Static content application with HTML/CSS/JS</h5>
+                <pre class="fragment"><code class="hljs">
+version: '2'
+services:
+  static_nginx:
+    container_name: HTML_CSS
+    image: nginx:stable
+    volumes:
+      - ./app/static-content:/usr/share/nginx/html
+    labels:
+      - "traefik.backend=STATIC"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:static.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+    network_mode: "DOCKER_network"
+</code></pre>
+            </section>
+
+            <section>
+                <h3>Creating own compose file</h3>
+                <h5>Application on Symfony4</h5>
+                <pre class="fragment"><code class="hljs">
+version: '2'
+services:
+  sf4_nginx:
+    container_name: SF4_nginx
+    image: nginx:stable
+    volumes:
+      - ./app/symfony4:/srv/symfony
+      - ./mount/nginx/symfony4.conf:/etc/nginx/conf.d/default.conf
+    labels:
+      - "traefik.backend=SF4"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:sf4.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+    network_mode: "DOCKER_network"
+  sf4_php:
+    container_name: SF4_php
+    image: bmxmale/docker-symfony4-php:develop
+    volumes_from:
+      - sf4_nginx
+    network_mode: "DOCKER_network"
+</code></pre>
+            </section>
+
+            <section>
+                <h3>Creating own compose file</h3>
+                <h5>Application on Magento2</h5>
+                <pre class="fragment"><code class="hljs">
+version: '2'
+services:
+  magento2_nginx:
+    container_name: MAGENTO2_nginx
+    image: nginx:stable
+    volumes:
+      - ./app/magento2:/srv/magento2
+      - ./mount/nginx/magento.conf:/etc/nginx/conf.d/default.conf
+    network_mode: "DOCKER_network"
+    labels:
+      - "traefik.backend=MAGENTO2"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:magento.udviklet.dk,secure.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+  magento2_php:
+    container_name: MAGENTO2_php
+    image: bmxmale/magento2-php:2.2
+    volumes_from:
+      - magento2_nginx
+    environment:
+      - PHP_USER=1000
+      - PHP_GROUP=1000
+    network_mode: "DOCKER_network"
+</code></pre>
+            </section>
+        </section>
+
+
+        <section>
+            <h3>DDK</h3>
+            <h5>Starting services</h5>
+            <div>
+                <ul>
+                    <li>Magento 2, Symfony 4</li>
+                </ul>
+            </div>
+            <asciinema-player src="asciinema/step4.cast" theme="solarized-dark" rows="15"></asciinema-player>
+        </section>
+        <section>
+
+            <section>
+                <h3>DDK</h3>
+                <h5>Build own Docker image</h5>
+                <pre><code class="hljs">FROM php:7.2-fpm
+MAINTAINER Mateusz Lerczak <mlerczak@pl.sii.eu>
+
+ARG SYMFONY_ROOT="/srv/symfony"
+
+ENV PHP_PORT 9000
+ENV PHP_PM dynamic
+ENV PHP_PM_MAX_CHILDREN 10
+ENV PHP_PM_START_SERVERS 1
+ENV PHP_PM_MIN_SPARE_SERVERS 1
+ENV PHP_PM_MAX_SPARE_SERVERS 6
+
+RUN \
+    apt-get update \
+    && apt-get install -y \
+        build-essential \
+        libssl-dev \
+        gnupg
+
+RUN \
+    curl -sL https://deb.nodesource.com/setup_6.x | bash -
+
+RUN \
+    apt-get install -y \
+        nodejs \
+        supervisor \
+        ssmtp \
+        libicu-dev
+
+RUN \
+    docker-php-ext-install \
+        intl \
+        pcntl \
+        opcache
+
+COPY container /
+
+RUN \
+    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+RUN \
+    mkdir -p /var/log/supervisor
+
+CMD ["/usr/bin/supervisord"]
+
+WORKDIR ${SYMFONY_ROOT}
+</code></pre>
+            </section>
+            <section>
+                <h3>DDK</h3>
+                <h5>Build own Docker image</h5>
+                <asciinema-player src="asciinema/build.cast" theme="solarized-dark" speed="2"></asciinema-player>
+            </section>
+        </section>
+        <section>
+            <h3>Good to know</h3>
+            <p>Set of useful pieces</p>
+            <ul>
+                <li class="fragment">https://www.katacoda.com/</li>
+                <li class="fragment">https://docs.docker.com/</li>
+                <li class="fragment">https://hub.docker.com/</li>
+                <li class="fragment">https://traefik.io/</li>
+                <li class="fragment">https://portainer.io/</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Summary</h3>
+            <ul>
+                <li class="fragment">..</li>
+                <li class="fragment">...</li>
+            </ul>
+            <img class="fragment" src="end.gif"/>
+            <h3 class="fragment ">Thank you, for patience. This was last :)</h3>
+        </section>
+    </div>
+</div>
+
+<script
+        src="//code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+<script src="lib/js/head.min.js"></script>
+<script src="lib/js/asciinema-player.js" async></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    Reveal.runPlayer = function (player) {
+        if (!player) {
+            return;
+        }
+        player.currentTime = 0;
+        player.play();
+    };
+    Reveal.initialize({
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            },
+            // {src: 'lib/js/asciinema-player.js', async: true},
+        ]
+    });
+
+    Reveal.addEventListener('slidechanged', function (event) {
+        Reveal.runPlayer(event.currentSlide.querySelector('asciinema-player'));
+    });
+
+</script>
+</body>
+</html>
+cd

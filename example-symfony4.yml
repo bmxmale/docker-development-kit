@@ -1,0 +1,20 @@
+version: '2'
+services:
+  sf4_nginx:
+    container_name: SF4_nginx
+    image: nginx:stable
+    volumes:
+      - ./app/symfony4:/srv/symfony
+      - ./mount/nginx/symfony4.conf:/etc/nginx/conf.d/default.conf
+    labels:
+      - "traefik.backend=SF4"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:sf4.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+    network_mode: "DOCKER_network"
+  sf4_php:
+    container_name: SF4_php
+    image: bmxmale/docker-symfony4-php:develop
+    volumes_from:
+      - sf4_nginx
+    network_mode: "DOCKER_network"

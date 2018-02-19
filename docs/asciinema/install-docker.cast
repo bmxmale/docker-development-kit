@@ -1,0 +1,1342 @@
+{
+  "version": 1,
+  "width": 211,
+  "height": 28,
+  "duration": 29.398474,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.027422,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/www/training/docker/docker-development\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      0.680309,
+      "."
+    ],
+    [
+      0.272037,
+      "/"
+    ],
+    [
+      0.207855,
+      "b"
+    ],
+    [
+      0.160136,
+      "i"
+    ],
+    [
+      0.13659,
+      "n/"
+    ],
+    [
+      0.231473,
+      "i"
+    ],
+    [
+      0.215917,
+      "n"
+    ],
+    [
+      0.08028,
+      "\u0007"
+    ],
+    [
+      0.335423,
+      "s"
+    ],
+    [
+      0.17623,
+      "tallDocker.sh "
+    ],
+    [
+      0.688007,
+      "\r\n"
+    ],
+    [
+      0.003606,
+      "[sudo] hasło użytkownika mlerczak: "
+    ],
+    [
+      3.684454,
+      "\r\n"
+    ],
+    [
+      0.069816,
+      "\r0% [Pracuje]"
+    ],
+    [
+      0.071262,
+      "\r            \r"
+    ],
+    [
+      9e-05,
+      "Ign.:1 http://dl.google.com/linux/chrome/deb stable InRelease\r\n\r0% [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com] [Łączenie z deb.nodesource.com (13.32.28"
+    ],
+    [
+      0.004918,
+      "\r                                                                                                                                                                                                                  \rStary:2 http://pl.archive.ubuntu.com/ubuntu artful InRelease\r\n\r0% [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com] [Oczekiwanie na nagłówki] [Łączenie z deb.nodesource.com (13.32.28"
+    ],
+    [
+      0.000715,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com] [Oczekiwanie na "
+    ],
+    [
+      0.002331,
+      "\r                                                                                                                                                                                                                  \rStary:3 http://ppa.launchpad.net/ondrej/php/ubuntu artful InRelease\r\n"
+    ],
+    [
+      6.8e-05,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com] [Oczekiwanie na "
+    ],
+    [
+      0.022036,
+      "\r                                                                                                                                                                                                                  \rStary:4 http://pl.archive.ubuntu.com/ubuntu artful-updates InRelease\r\n\r0% [2 InRelease gpgv 237 kB] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com] [Oczekiwanie na nagłówki] [Łączenie z de"
+    ],
+    [
+      0.02966,
+      "\r                                                                                                                                                                                                                  \rStary:5 http://pl.archive.ubuntu.com/ubuntu artful-backports InRelease\r\n\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z download.docker.com] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagłówki] [Łączenie z d"
+    ],
+    [
+      0.025584,
+      "\r0% [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagłówki] [Łączenie z deb.nodesour"
+    ],
+    [
+      0.000156,
+      "\r0% [3 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.011461,
+      "\r                                                                                                                                                                                                                  \rStary:6 http://dl.google.com/linux/chrome/deb stable Release\r\n\r0% [3 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com] [Łączenie z deb.nodesourc"
+    ],
+    [
+      0.037434,
+      "\r                                                                                                                                                                                                                  \rStary:7 https://deb.nodesource.com/node_9.x artful InRelease\r\n\r                                                                                                                                                                                                                  \r0% [3 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.009654,
+      "\r                                                                                                                                                                                      \r"
+    ],
+    [
+      7.4e-05,
+      "Pobieranie:8 http://security.ubuntu.com/ubuntu artful-security InRelease [78,6 kB]\r\n\r0% [3 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [8 InRelease 978 B/78,6 kB 1%] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.000932,
+      "\r                                                                                                                                                                                         \rStary:9 http://archive.canonical.com/ubuntu artful InRelease\r\n\r                                                                                                                                                                                         \r0% [3 InRelease gpgv 20,8 kB] [8 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.001837,
+      "\r                                                                                                                                                                \r0% [8 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.000198,
+      "\r0% [4 InRelease gpgv 78,6 kB] [8 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z download.docker.com (13.32.28.140)] [Łączenie z atlassian.artifactoryonline.com]"
+    ],
+    [
+      0.051401,
+      "\r                                                                                                                                                                \rStary:10 https://download.docker.com/linux/ubuntu artful InRelease\r\n\r                                                                                                                                                                \r0% [4 InRelease gpgv 78,6 kB] [8 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.010639,
+      "\r                                                                                                                               \r0% [8 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      3.7e-05,
+      "\r0% [5 InRelease gpgv 72,2 kB] [8 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.062792,
+      "\r                                                                                                                               \r0% [8 InRelease 22,9 kB/78,6 kB 29%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.000104,
+      "\r0% [Release.gpg gpgv 1189 B] [8 InRelease 22,9 kB/78,6 kB 29%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.059316,
+      "\r                                                                                                                              \r0% [8 InRelease 38,3 kB/78,6 kB 49%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      3.6e-05,
+      "\r0% [7 InRelease gpgv 4622 B] [8 InRelease 38,3 kB/78,6 kB 49%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.057094,
+      "\r                                                                                                                              \r0% [8 InRelease 55,1 kB/78,6 kB 70%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      5.3e-05,
+      "\r0% [9 InRelease gpgv 10,2 kB] [8 InRelease 55,1 kB/78,6 kB 70%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.044586,
+      "\r                                                                                                                               \r0% [9 InRelease gpgv 10,2 kB] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.017761,
+      "\r                                                                                             \r0% [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.000101,
+      "\r0% [10 InRelease gpgv 51,9 kB] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.064946,
+      "\r                                                                                              \r0% [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      8.6e-05,
+      "\r0% [8 InRelease gpgv 78,6 kB] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.062689,
+      "\r                                                                                             \r0% [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.117054,
+      "\r                              \rIgn.:12 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful InRelease\r\n\r                              \r0% [Pracuje]"
+    ],
+    [
+      0.123508,
+      "\r            \rStary:13 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful Release\r\n\r0% [Pracuje]"
+    ],
+    [
+      0.000285,
+      "\r0% [Release.gpg gpgv 1869 B]"
+    ],
+    [
+      0.056067,
+      "\r                            \r100% [Pracuje]\r              \r"
+    ],
+    [
+      7.5e-05,
+      "Pobrano 78,6 kB w 0s (83,0 kB/s)\r\n"
+    ],
+    [
+      0.061064,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.007135,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.011436,
+      "\rCzytanie list pakietów... 1%\r"
+    ],
+    [
+      0.03372,
+      "\rCzytanie list pakietów... 4%\r\rCzytanie list pakietów... 4%\r"
+    ],
+    [
+      0.037857,
+      "\rCzytanie list pakietów... 8%\r\rCzytanie list pakietów... 8%\r"
+    ],
+    [
+      0.00324,
+      "\rCzytanie list pakietów... 9%\r"
+    ],
+    [
+      3.1e-05,
+      "\rCzytanie list pakietów... 9%\r"
+    ],
+    [
+      0.007216,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000506,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      3.2e-05,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000403,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      1.2e-05,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000114,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000163,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.386914,
+      "\rCzytanie list pakietów... 43%\r\rCzytanie list pakietów... 43%\r"
+    ],
+    [
+      0.238097,
+      "\rCzytanie list pakietów... 70%\r"
+    ],
+    [
+      0.03543,
+      "\rCzytanie list pakietów... 73%\r\rCzytanie list pakietów... 73%\r"
+    ],
+    [
+      0.013135,
+      "\rCzytanie list pakietów... 76%\r\rCzytanie list pakietów... 76%\r"
+    ],
+    [
+      0.061832,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.00743,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.003959,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.000217,
+      "\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      3.1e-05,
+      "\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.001825,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.009792,
+      "\rCzytanie list pakietów... 95%\r\rCzytanie list pakietów... 95%\r"
+    ],
+    [
+      0.009665,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.003572,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000207,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000273,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000179,
+      "\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      3.9e-05,
+      "\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.00479,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.003378,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000583,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000195,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000243,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000525,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000195,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000134,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      9e-06,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000288,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000291,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000278,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000404,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000248,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000219,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      2.2e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000539,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.001384,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.001312,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000883,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3.1e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000205,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      5.6e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000124,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000484,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      4.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000583,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.00031,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      2.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      2.6e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000206,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000331,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      4.8e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000241,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000277,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000501,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      4.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      8e-06,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.00028,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      2.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.003509,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.002702,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.039326,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.071856,
+      "\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.080308,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.026698,
+      "\rCzytanie list pakietów... 100%\r\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.005657,
+      "\rBudowanie drzewa zależności... 0%\r\rBudowanie drzewa zależności... 0%\r"
+    ],
+    [
+      0.038864,
+      "\rBudowanie drzewa zależności... 50%\r\rBudowanie drzewa zależności... 50%\r"
+    ],
+    [
+      0.173806,
+      "\rBudowanie drzewa zależności       \r\r\n\rOdczyt informacji o stanie... 0%\r"
+    ],
+    [
+      5.6e-05,
+      "\rOdczyt informacji o stanie... 0%\r"
+    ],
+    [
+      0.000274,
+      "\rOdczyt informacji o stanie... Gotowe\r\r\n"
+    ],
+    [
+      0.028698,
+      "ca-certificates is already the newest version (20170717).\r\nsoftware-properties-common is already the newest version (0.96.24.17).\r\napt-transport-https is already the newest version (1.5.1).\r\ncurl is already the newest version (7.55.1-1ubuntu2.3).\r\n"
+    ],
+    [
+      0.137517,
+      "Następujące pakiety zostały zainstalowane automatycznie i nie są już więcej wymagane:\r\n"
+    ],
+    [
+      0.000776,
+      "  aufs-tools cgroupfs-mount python-backports.ssl-match-hostname python-cached-property python-certifi python-docker python-dockerpty python-docopt python-funcsigs python-functools32 python-jsonschema\r\n"
+    ],
+    [
+      0.000416,
+      "  python-mock python-openssl python-pbr python-requests python-texttable python-urllib3 python-websocket python-yaml\r\nAby je usunąć należy użyć \"sudo apt autoremove\".\r\n"
+    ],
+    [
+      0.021368,
+      "0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 0 nieaktualizowanych.\r\n"
+    ],
+    [
+      0.223079,
+      "OK\r\n"
+    ],
+    [
+      0.556444,
+      "\r0% [Pracuje]"
+    ],
+    [
+      0.041999,
+      "\r            \r"
+    ],
+    [
+      2.2e-05,
+      "Ign.:1 http://dl.google.com/linux/chrome/deb stable InRelease\r\n\r0% [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.56)] [Łączenie z atlassian.arti"
+    ],
+    [
+      0.022751,
+      "\r                                                                                                                                                                                                                  \rStary:2 http://pl.archive.ubuntu.com/ubuntu artful InRelease\r\n\r0% [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.56)] [Łączenie z atlassian.arti"
+    ],
+    [
+      0.000517,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.56)] ["
+    ],
+    [
+      0.019137,
+      "�\r                                                                                                                                                                                                                  \rStary:3 http://ppa.launchpad.net/ondrej/php/ubuntu artful InRelease\r\n"
+    ],
+    [
+      6.5e-05,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.56)] ["
+    ],
+    [
+      0.006074,
+      "�\r                                                                                                                                                                                                                  \rStary:4 http://pl.archive.ubuntu.com/ubuntu artful-updates InRelease\r\n\r0% [2 InRelease gpgv 237 kB] [Łączenie z archive.canonical.com (91.189.91.15)] [Łączenie z security.ubuntu.com (91.189.91.23)] [Łączenie z download.docker.com (13.32.28.56)] [Łączenie z atlassian.artifa"
+    ],
+    [
+      0.028687,
+      "\r                                                                                                                                                                                                                  \rStary:5 http://pl.archive.ubuntu.com/ubuntu artful-backports InRelease\r\n"
+    ],
+    [
+      4.6e-05,
+      "\r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)] [Oczekiwanie na nagłówki] [Ocze"
+    ],
+    [
+      0.019409,
+      "\r                                                                                                                                                                                                                  \rStary:6 http://dl.google.com/linux/chrome/deb stable Release\r\n\r                                                                                                                                                                                                                  \r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.000707,
+      "\r                                                                                                                                                                                                            \rStary:7 https://download.docker.com/linux/ubuntu artful InRelease\r\n\r                                                                                                                                                                                                            \r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.003657,
+      "\r                                                                                                                                                                                \rStary:8 https://deb.nodesource.com/node_9.x artful InRelease\r\n"
+    ],
+    [
+      1.9e-05,
+      "\r                                                                                                                                                                                \r0% [2 InRelease gpgv 237 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.007462,
+      "\r                                                                                                                                                    \r0% [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      2e-05,
+      "\r0% [3 InRelease gpgv 20,8 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.064252,
+      "\r                                                                                                                                                     \r0% [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      2e-05,
+      "\r0% [4 InRelease gpgv 78,6 kB] [Oczekiwanie na nagłówki] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.002583,
+      "\r                                                                                                                                                     \rStary:9 http://archive.canonical.com/ubuntu artful InRelease\r\n"
+    ],
+    [
+      0.000149,
+      "\r                                                                                                                                                     \r0% [4 InRelease gpgv 78,6 kB] [Oczekiwanie na nagłówki] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.001307,
+      "\r                                                                                                                         \rPobieranie:10 http://security.ubuntu.com/ubuntu artful-security InRelease [78,6 kB]\r\n"
+    ],
+    [
+      1.9e-05,
+      "\r0% [4 InRelease gpgv 78,6 kB] [10 InRelease 978 B/78,6 kB 1%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.059297,
+      "\r                                                                                                                             \r0% [10 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      4e-05,
+      "\r0% [5 InRelease gpgv 72,2 kB] [10 InRelease 12,6 kB/78,6 kB 16%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.063329,
+      "\r                                                                                                                                \r0% [10 InRelease 20,3 kB/78,6 kB 26%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.000103,
+      "\r0% [Release.gpg gpgv 1189 B] [10 InRelease 20,3 kB/78,6 kB 26%] [Łączenie z atlassian.artifactoryonline.com (54.208.246.180)]"
+    ],
+    [
+      0.061036,
+      "\r                                                                                                                               \r0% [10 InRelease 38,3 kB/78,6 kB 49%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      4.7e-05,
+      "\r0% [7 InRelease gpgv 51,9 kB] [10 InRelease 38,3 kB/78,6 kB 49%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.060204,
+      "\r                                                                                            \r0% [10 InRelease 51,2 kB/78,6 kB 65%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      5.7e-05,
+      "\r0% [8 InRelease gpgv 4622 B] [10 InRelease 51,2 kB/78,6 kB 65%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.055318,
+      "\r                                                                                           \rIgn.:12 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful InRelease\r\n"
+    ],
+    [
+      3.1e-05,
+      "\r                                                                                           \r0% [8 InRelease gpgv 4622 B] [10 InRelease 73,1 kB/78,6 kB 93%]"
+    ],
+    [
+      0.002146,
+      "\r0% [10 InRelease 73,1 kB/78,6 kB 93%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      2e-05,
+      "\r0% [9 InRelease gpgv 10,2 kB] [10 InRelease 73,1 kB/78,6 kB 93%] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.012622,
+      "\r                                                                                            \r0% [9 InRelease gpgv 10,2 kB] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.04973,
+      "\r                                                         \r0% [Oczekiwanie na nagłówki]"
+    ],
+    [
+      4.8e-05,
+      "\r0% [10 InRelease gpgv 78,6 kB] [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.060885,
+      "\r                                                          \r0% [Oczekiwanie na nagłówki]"
+    ],
+    [
+      0.002064,
+      "\r                              \rStary:13 https://atlassian.artifactoryonline.com/atlassian/hipchat-apt-client artful Release\r\n"
+    ],
+    [
+      5.5e-05,
+      "\r                              \r0% [Pracuje]"
+    ],
+    [
+      0.000133,
+      "\r0% [Release.gpg gpgv 1869 B]"
+    ],
+    [
+      0.058523,
+      "\r                            \r100% [Pracuje]\r              \r"
+    ],
+    [
+      0.000115,
+      "Pobrano 78,6 kB w 0s (112 kB/s)\r\n"
+    ],
+    [
+      1.969233,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.006872,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.012507,
+      "\rCzytanie list pakietów... 1%\r"
+    ],
+    [
+      0.034326,
+      "\rCzytanie list pakietów... 4%\r\rCzytanie list pakietów... 4%\r"
+    ],
+    [
+      0.03424,
+      "\rCzytanie list pakietów... 8%\r\rCzytanie list pakietów... 8%\r"
+    ],
+    [
+      0.004187,
+      "\rCzytanie list pakietów... 9%\r\rCzytanie list pakietów... 9%\r"
+    ],
+    [
+      0.008117,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000541,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      3.3e-05,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000498,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000176,
+      "\rCzytanie list pakietów... 12%\r\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.000196,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      3.3e-05,
+      "\rCzytanie list pakietów... 12%\r"
+    ],
+    [
+      0.380955,
+      "\rCzytanie list pakietów... 43%\r\rCzytanie list pakietów... 43%\r"
+    ],
+    [
+      0.238727,
+      "\rCzytanie list pakietów... 70%\r"
+    ],
+    [
+      0.038056,
+      "\rCzytanie list pakietów... 73%\r\rCzytanie list pakietów... 73%\r"
+    ],
+    [
+      0.010468,
+      "\rCzytanie list pakietów... 76%\r\rCzytanie list pakietów... 76%\r"
+    ],
+    [
+      0.05853,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.007145,
+      "\rCzytanie list pakietów... 93%\r\rCzytanie list pakietów... 93%\r"
+    ],
+    [
+      0.004162,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.000237,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.001427,
+      "\rCzytanie list pakietów... 94%\r\rCzytanie list pakietów... 94%\r"
+    ],
+    [
+      0.009026,
+      "\rCzytanie list pakietów... 95%\r\rCzytanie list pakietów... 95%\r"
+    ],
+    [
+      0.008491,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.001981,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000299,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000229,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.000151,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.004419,
+      "\rCzytanie list pakietów... 96%\r\rCzytanie list pakietów... 96%\r"
+    ],
+    [
+      0.002929,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000645,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.00031,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000291,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000498,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000172,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000245,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000293,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000301,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      3e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000282,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      2.9e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.0004,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000223,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000202,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000432,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      2.9e-05,
+      "\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.001287,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.001351,
+      "\rCzytanie list pakietów... 97%\r\rCzytanie list pakietów... 97%\r"
+    ],
+    [
+      0.000899,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      2.6e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000258,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.2e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000733,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000612,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000109,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000327,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3.1e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.00017,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000206,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000419,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      4.7e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000262,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000277,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      5.4e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000326,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      5.9e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000106,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      2.3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.000293,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      3.3e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.002464,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.6e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.002313,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      1.7e-05,
+      "\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.03775,
+      "\rCzytanie list pakietów... 98%\r\rCzytanie list pakietów... 98%\r"
+    ],
+    [
+      0.064082,
+      "\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.073618,
+      "\rCzytanie list pakietów... 0%\r"
+    ],
+    [
+      0.023734,
+      "\rCzytanie list pakietów... 100%\r\rCzytanie list pakietów... Gotowe\r\r\n"
+    ],
+    [
+      0.007369,
+      "\rBudowanie drzewa zależności... 0%\r\rBudowanie drzewa zależności... 0%\r"
+    ],
+    [
+      0.034731,
+      "\rBudowanie drzewa zależności... 50%\r\rBudowanie drzewa zależności... 50%\r"
+    ],
+    [
+      0.172894,
+      "\rBudowanie drzewa zależności       \r\r\n\rOdczyt informacji o stanie... 0%\r\rOdczyt informacji o stanie... 0%\r"
+    ],
+    [
+      0.000374,
+      "\rOdczyt informacji o stanie... Gotowe\r\r\n"
+    ],
+    [
+      0.165387,
+      "Polecane pakiety:\r\n  docker.io\r\n"
+    ],
+    [
+      0.013422,
+      "Zostaną zainstalowane następujące NOWE pakiety:\r\n"
+    ],
+    [
+      0.001762,
+      "  docker-ce docker-compose\r\n"
+    ],
+    [
+      0.00964,
+      "0 aktualizowanych, 2 nowo instalowanych, 0 usuwanych i 0 nieaktualizowanych.\r\nKonieczne pobranie 0 B/29,9 MB archiwów.\r\nPo tej operacji zostanie dodatkowo użyte 149 MB miejsca na dysku.\r\n"
+    ],
+    [
+      0.42648,
+      "Wybieranie wcześniej niewybranego pakietu docker-ce.\r\n(Odczytywanie bazy danych ... \r"
+    ],
+    [
+      0.004945,
+      "(Odczytywanie bazy danych ... 5%\r(Odczytywanie bazy danych ... 10%\r(Odczytywanie bazy danych ... 15%\r(Odczytywanie bazy danych ... 20%\r(Odczytywanie bazy danych ... 25%\r(Odczytywanie bazy danych ... 30%\r(Odczytywanie bazy danych ... 35%\r(Odczytywanie bazy danych ... 40%\r(Odczytywanie bazy danych ... 45%\r"
+    ],
+    [
+      0.007807,
+      "(Odczytywanie bazy danych ... 50%\r"
+    ],
+    [
+      0.002692,
+      "(Odczytywanie bazy danych ... 55%\r"
+    ],
+    [
+      0.004835,
+      "(Odczytywanie bazy danych ... 60%\r"
+    ],
+    [
+      0.00933,
+      "(Odczytywanie bazy danych ... 65%\r"
+    ],
+    [
+      0.007223,
+      "(Odczytywanie bazy danych ... 70%\r"
+    ],
+    [
+      0.005834,
+      "(Odczytywanie bazy danych ... 75%\r"
+    ],
+    [
+      0.006363,
+      "(Odczytywanie bazy danych ... 80%\r"
+    ],
+    [
+      0.009778,
+      "(Odczytywanie bazy danych ... 85%\r"
+    ],
+    [
+      0.00158,
+      "(Odczytywanie bazy danych ... 90%\r"
+    ],
+    [
+      0.001821,
+      "(Odczytywanie bazy danych ... 95%\r"
+    ],
+    [
+      0.007004,
+      "(Odczytywanie bazy danych ... 100%\r(Odczytywanie bazy danych ... 175408 plików i katalogów obecnie zainstalowanych.)\r\n"
+    ],
+    [
+      0.005254,
+      "Przygotowywanie do rozpakowania pakietu .../docker-ce_17.12.0~ce-0~ubuntu_amd64.deb ...\r\n"
+    ],
+    [
+      0.005954,
+      "Rozpakowywanie pakietu docker-ce (17.12.0~ce-0~ubuntu) ...\r\n"
+    ],
+    [
+      2.81051,
+      "Wybieranie wcześniej niewybranego pakietu docker-compose.\r\n"
+    ],
+    [
+      0.008973,
+      "Przygotowywanie do rozpakowania pakietu .../docker-compose_1.8.0-2_all.deb ...\r\n"
+    ],
+    [
+      0.006333,
+      "Rozpakowywanie pakietu docker-compose (1.8.0-2) ...\r\n"
+    ],
+    [
+      0.130258,
+      "Konfigurowanie pakietu docker-ce (17.12.0~ce-0~ubuntu) ...\r\n"
+    ],
+    [
+      0.991077,
+      "Przetwarzanie wyzwalaczy pakietu ureadahead (0.100.0-20)...\r\n"
+    ],
+    [
+      0.112369,
+      "Konfigurowanie pakietu docker-compose (1.8.0-2) ...\r\n"
+    ],
+    [
+      0.093692,
+      "Przetwarzanie wyzwalaczy pakietu systemd (234-2ubuntu12.1)...\r\n"
+    ],
+    [
+      0.124656,
+      "Przetwarzanie wyzwalaczy pakietu man-db (2.7.6.1-2)...\r\n"
+    ],
+    [
+      1.575148,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/www/training/docker/docker-development\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      1.407237,
+      "c"
+    ],
+    [
+      0.188081,
+      "l"
+    ],
+    [
+      0.128504,
+      "e"
+    ],
+    [
+      0.111706,
+      "a"
+    ],
+    [
+      0.33633,
+      "r"
+    ],
+    [
+      0.247627,
+      "\r\n"
+    ],
+    [
+      0.000822,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.002468,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/www/training/docker/docker-development\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      0.452945,
+      "d"
+    ],
+    [
+      0.143508,
+      "o"
+    ],
+    [
+      0.619019,
+      "c"
+    ],
+    [
+      0.125358,
+      "k"
+    ],
+    [
+      0.279929,
+      "e"
+    ],
+    [
+      0.135894,
+      "r"
+    ],
+    [
+      0.192224,
+      " "
+    ],
+    [
+      0.127733,
+      "-"
+    ],
+    [
+      0.120243,
+      "v"
+    ],
+    [
+      0.296094,
+      "\r\n"
+    ],
+    [
+      0.010834,
+      "Docker version 17.12.0-ce, build c97c6d6\r\n"
+    ],
+    [
+      0.003142,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/www/training/docker/docker-development\u001b[01;31m(develop)\u001b[00m$ "
+    ],
+    [
+      0.68984,
+      "d"
+    ],
+    [
+      0.112281,
+      "o"
+    ],
+    [
+      0.1362,
+      "c"
+    ],
+    [
+      0.159645,
+      "k"
+    ],
+    [
+      0.127998,
+      "e"
+    ],
+    [
+      0.167868,
+      "r"
+    ],
+    [
+      0.247652,
+      "-"
+    ],
+    [
+      0.215949,
+      "c"
+    ],
+    [
+      0.080566,
+      "o"
+    ],
+    [
+      0.208164,
+      "m"
+    ],
+    [
+      0.104589,
+      "pose "
+    ],
+    [
+      0.559205,
+      "-"
+    ],
+    [
+      0.160351,
+      "v"
+    ],
+    [
+      0.353461,
+      "\r\n"
+    ],
+    [
+      0.311051,
+      "docker-compose version 1.8.0, build unknown\r\n"
+    ],
+    [
+      0.024599,
+      "\u001b[01;32mmlerczak@Sii\u001b[00m:\u001b[01;34m~/www/training/docker/docker-development\u001b[01;31m(develop)\u001b[00m$ "
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+version: '2'
+services:
+  static_nginx:
+    container_name: DDK_nginx
+    image: nginx:stable
+    volumes:
+      - ./docs:/usr/share/nginx/html
+    labels:
+      - "traefik.backend=DDK"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:static.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+    network_mode: "DOCKER_network"
