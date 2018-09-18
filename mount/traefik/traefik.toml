@@ -15,11 +15,8 @@ logLevel = "ERROR"
         compress = true
     [entryPoints.https.tls]
         [[entryPoints.https.tls.certificates]]
-            certFile = "/etc/traefik/certs/dummy.pem"
-            keyFile = "/etc/traefik/certs/dummy.pem"
-        [[entryPoints.https.tls.certificates]]
-            certFile = "/etc/traefik/certs/secure.udviklet.dk.pem"
-            keyFile = "/etc/traefik/certs/secure.udviklet.dk.pem"
+            certFile = "/etc/traefik/certs/wildcard.udviklet.dk.pem"
+            keyFile = "/etc/traefik/certs/wildcard.udviklet.dk.pem"
 [web]
     address = ":8080"
     readOnly = true
