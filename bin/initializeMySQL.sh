@@ -8,4 +8,4 @@ docker run -it \
             -e MYSQL_USER=development \
             -e MYSQL_PASSWORD=development \
             -v `pwd`/mount/mysql/data:/var/lib/mysql \
-            bmxmale/docker-mysql-data-initializer:latest
+            bmxmale/docker-mysql-data-initializer:5.7

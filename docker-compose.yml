@@ -49,7 +49,7 @@ services:
   # MySQL - widely used, open-source relational database management system (RDBMS).
   mysql:
     container_name: MySQL
-    image: mysql:latest
+    image: mysql:5.7
     volumes:
       - ./mount/mysql/data:/var/lib/mysql
     ports:
@@ -77,3 +77,18 @@ services:
 #      - "traefik.frontend.rule=Host:elastic.udviklet.dk"
 #      - "traefik.docker.network=DOCKER_network"
 #    network_mode: "DOCKER_network"
+
+  grafana:
+      container_name: Grafana
+      image: grafana/grafana:latest
+      volumes:
+        - ./mount/grafana/data:/var/lib/grafana
+      environment:
+        - GF_SERVER_ROOT_URL=https://grafana.udviklet.dk
+      network_mode: "DOCKER_network"
+      labels:
+      - "traefik.backend=GRAFANA"
+      - "traefik.port=3000"
+      - "traefik.frontend.rule=Host:grafana.udviklet.dk"
+      - "traefik.docker.network=DOCKER_network"
+

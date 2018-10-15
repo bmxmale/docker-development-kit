@@ -21,9 +21,9 @@ docker-compose up -d
 ```
 
 ##### Now you have setup docker environment with:
-- [Traefik] > http://traefik.udviklet.dk
-- [Portainer] > http://portainer.udviklet.dk
-- [MailHog] > http://mailhog.udviklet.dk
+- [Traefik] > https://traefik.udviklet.dk
+- [Portainer] > https://portainer.udviklet.dk
+- [MailHog] > https://mailhog.udviklet.dk
 
 #### Example app 
 
