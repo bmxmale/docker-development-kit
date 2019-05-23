@@ -15,8 +15,8 @@ logLevel = "ERROR"
         compress = true
     [entryPoints.https.tls]
         [[entryPoints.https.tls.certificates]]
-            certFile = "/etc/traefik/certs/wildcard.udviklet.dk.pem"
-            keyFile = "/etc/traefik/certs/wildcard.udviklet.dk.pem"
+            certFile = "/etc/traefik/certs/wildcard.qwerty.re.pem"
+            keyFile = "/etc/traefik/certs/wildcard.qwerty.re.pem"
 [web]
     address = ":8080"
     readOnly = true
@@ -25,7 +25,7 @@ logLevel = "ERROR"
     recentErrors = 20
 
 [docker]
-    domain = "udviklet.dk"
+    domain = "qwerty.re"
     exposedbydefault = true
     swarmmode = false
     watch = true

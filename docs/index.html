@@ -123,7 +123,7 @@ services:
     labels:
       - "traefik.backend=STATIC"
       - "traefik.port=80"
-      - "traefik.frontend.rule=Host:static.udviklet.dk"
+      - "traefik.frontend.rule=Host:static.qwerty.re"
       - "traefik.docker.network=DOCKER_network"
     network_mode: "DOCKER_network"
 </code></pre>
@@ -144,7 +144,7 @@ services:
     labels:
       - "traefik.backend=SF4"
       - "traefik.port=80"
-      - "traefik.frontend.rule=Host:sf4.udviklet.dk"
+      - "traefik.frontend.rule=Host:sf4.qwerty.re"
       - "traefik.docker.network=DOCKER_network"
     network_mode: "DOCKER_network"
   sf4_php:
@@ -172,7 +172,7 @@ services:
     labels:
       - "traefik.backend=MAGENTO2"
       - "traefik.port=80"
-      - "traefik.frontend.rule=Host:magento.udviklet.dk,secure.udviklet.dk"
+      - "traefik.frontend.rule=Host:magento.qwerty.re,secure.qwerty.re"
       - "traefik.docker.network=DOCKER_network"
   magento2_php:
     container_name: MAGENTO2_php
