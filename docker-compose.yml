@@ -17,7 +17,7 @@ services:
     labels:
       - "traefik.backend=TRAEFIK"
       - "traefik.port=8080"
-      - "traefik.frontend.rule=Host:traefik.udviklet.dk"
+      - "traefik.frontend.rule=Host:traefik.qwerty.re"
       - "traefik.docker.network=DOCKER_network"
 
   # MailHog - Web and API based SMTP testing
@@ -28,7 +28,7 @@ services:
     labels:
       - "traefik.backend=MAILHOG"
       - "traefik.port=8025"
-      - "traefik.frontend.rule=Host:mailhog.udviklet.dk"
+      - "traefik.frontend.rule=Host:mailhog.qwerty.re"
       - "traefik.docker.network=DOCKER_network"
 
   # Portainer - Simple management UI for Docker
@@ -43,7 +43,7 @@ services:
     labels:
       - "traefik.backend=PORTAINER"
       - "traefik.port=9000"
-      - "traefik.frontend.rule=Host:portainer.udviklet.dk"
+      - "traefik.frontend.rule=Host:portainer.qwerty.re"
       - "traefik.docker.network=DOCKER_network"
 
   # MySQL - widely used, open-source relational database management system (RDBMS).
@@ -65,30 +65,30 @@ services:
     network_mode: "DOCKER_network"
 
   # Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases.
-#  elasticsearch:
-#    container_name: Elasticsearch
-#    image: bmxmale/docker-elasticsearch:2.4.6
-#    volumes:
-#      - ./mount/elasticsearch/data:/usr/share/elasticsearch/data/elasticsearch
-#      - ./mount/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
-#    labels:
-#      - "traefik.backend=ELASTIC"
-#      - "traefik.port=9200"
-#      - "traefik.frontend.rule=Host:elastic.udviklet.dk"
-#      - "traefik.docker.network=DOCKER_network"
-#    network_mode: "DOCKER_network"
+  #  elasticsearch:
+  #    container_name: Elasticsearch
+  #    image: bmxmale/docker-elasticsearch:2.4.6
+  #    volumes:
+  #      - ./mount/elasticsearch/data:/usr/share/elasticsearch/data/elasticsearch
+  #      - ./mount/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+  #    labels:
+  #      - "traefik.backend=ELASTIC"
+  #      - "traefik.port=9200"
+  #      - "traefik.frontend.rule=Host:elastic.qwerty.re"
+  #      - "traefik.docker.network=DOCKER_network"
+  #    network_mode: "DOCKER_network"
 
-  grafana:
-      container_name: Grafana
-      image: grafana/grafana:latest
-      volumes:
-        - ./mount/grafana/data:/var/lib/grafana
-      environment:
-        - GF_SERVER_ROOT_URL=https://grafana.udviklet.dk
-      network_mode: "DOCKER_network"
-      labels:
-      - "traefik.backend=GRAFANA"
-      - "traefik.port=3000"
-      - "traefik.frontend.rule=Host:grafana.udviklet.dk"
-      - "traefik.docker.network=DOCKER_network"
+#  grafana:
+#    container_name: Grafana
+#    image: grafana/grafana:latest
+#    volumes:
+#      - ./mount/grafana/data:/var/lib/grafana
+#    environment:
+#      - GF_SERVER_ROOT_URL=https://grafana.qwerty.re
+#    network_mode: "DOCKER_network"
+#    labels:
+#      - "traefik.backend=GRAFANA"
+#      - "traefik.port=3000"
+#      - "traefik.frontend.rule=Host:grafana.qwerty.re"
+#      - "traefik.docker.network=DOCKER_network"
 

@@ -21,9 +21,9 @@ docker-compose up -d
 ```
 
 ##### Now you have setup docker environment with:
-- [Traefik] > https://traefik.udviklet.dk
-- [Portainer] > https://portainer.udviklet.dk
-- [MailHog] > https://mailhog.udviklet.dk
+- [Traefik] > https://traefik.qwerty.re
+- [Portainer] > https://portainer.qwerty.re
+- [MailHog] > https://mailhog.qwerty.re
 
 #### Example app 
 
@@ -41,14 +41,14 @@ _NOTICE! Setup from web often freeze, better way is use CLI to setup magento :)_
 
 ```bash
 php bin/magento setup:install \
-        --base-url='http://magento.udviklet.dk/' \
+        --base-url='http://magento.qwerty.re/' \
         --db-host='MySQL' \
         --db-name='development'  \
         --db-user='development' \
         --db-password='development' \
         --admin-firstname='Admin' \
         --admin-lastname='Admin' \
-        --admin-email='magento@udviklet.dk' \
+        --admin-email='magento@qwerty.re' \
         --admin-user='development'  \
         --admin-password='development' \
         --language='en_US' \
